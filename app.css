@@ -1,0 +1,87 @@
+/* red = #DA1212*/
+/* blue = #041562*/
+/* greyish = #EEEEEE*/
+
+body {
+  height: 1000vh;
+}
+.top-container {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #041562;
+  height: auto;
+  color: white;
+}
+
+.navbar .navbar-brand {
+  color: #da1212 !important;
+  -webkit-text-stroke: 0.4px white !important;
+  font-family: "rubik";
+  font-size: 35px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-toggler {
+  border: 0px solid white !important;
+  color: white;
+  padding-top: 0px !important;
+  margin-right: 10px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.nav-bar-icon {
+  color: white;
+  font-size: 25px;
+}
+
+.container-fluid {
+  padding: 0px !important;
+  background-color: transparent;
+}
+
+.navbar-expand-lg .navbar-nav {
+  padding: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 20px !important;
+  width: 100% !important;
+  display: flex !important;
+  padding-right: 50px !important;
+  justify-content: flex-end !important;
+  column-gap: 30px;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: poppins;
+  padding: 10px 0px !important;
+}
+.navbar-expand-lg .navbar-nav {
+  width: 100%;
+}
+
+.landing {
+  height: 800px;
+  width: 100%;
+  background-image: url(images/1476771333_EPT20-15EHJ.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+  backdrop-filter: overlay(0.5);
+}
+
+.landing-background {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.185);
+}
