@@ -10,24 +10,25 @@ body {
 }
 
 .navbar {
-  background-color: #041562;
+  background-color: transparent;
   height: auto;
   color: white;
 }
 
 .navbar .navbar-brand {
   color: #da1212 !important;
-  -webkit-text-stroke: 0.4px white !important;
   font-family: "rubik";
-  font-size: 35px;
+  font-size: 40px;
+  margin-left: 40px;
   font-style: italic;
-  font-weight: 700;
+  font-weight: 800;
+
   letter-spacing: 1px;
 }
 
 .navbar-toggler {
   border: 0px solid white !important;
-  color: white;
+  color: black;
   padding-top: 0px !important;
   margin-right: 10px;
 }
@@ -54,7 +55,7 @@ body {
   padding-left: 20px !important;
   width: 100% !important;
   display: flex !important;
-  padding-right: 50px !important;
+  padding-right: 20px !important;
   justify-content: flex-end !important;
   column-gap: 30px;
 }
@@ -62,9 +63,20 @@ body {
 .nav-link {
   color: white !important;
   font-size: 24px;
-  font-weight: 600;
-  font-family: poppins;
+  text-shadow: 0.5px 0.5px 4px rgb(99, 99, 99);
+  font-weight: 500;
+  font-family: "rubik";
   padding: 10px 0px !important;
+  transition: all 0.5s ease !important;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: #041562;
+}
+
+.navbar-nav .nav-item:nth-of-type(2) {
+  margin-right: 40px;
 }
 .navbar-expand-lg .navbar-nav {
   width: 100%;
@@ -76,12 +88,46 @@ body {
   background-image: url(images/1476771333_EPT20-15EHJ.png);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: right;
+  background-position: right bottom;
   backdrop-filter: overlay(0.5);
 }
 
 .landing-background {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.185);
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.content-container {
+  width: 100%;
+  height: 80%;
+}
+
+.content {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.content h2 {
+  font-size: 50px;
+  font-family: "montserrat";
+  font-weight: 700;
+  color: #041562;
+  margin-left: 40px;
+}
+
+.content p {
+  margin: 0px;
+  margin-left: 40px;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-family: "rubik";
+}
+
+.content p:nth-of-type(2) {
+  text-decoration: 4px #da1212 underline;
+  text-transform: capitalize;
 }
