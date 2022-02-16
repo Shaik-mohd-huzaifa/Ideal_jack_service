@@ -1,4 +1,4 @@
-/* red = #DA1212*/
+/* red = c*/
 /* blue = #041562*/
 /* greyish = #EEEEEE*/
 
@@ -15,15 +15,22 @@ body {
   color: white;
 }
 
-.navbar .navbar-brand {
-  color: #da1212 !important;
-  font-family: "rubik";
-  font-size: 40px;
-  margin-left: 40px;
-  font-style: italic;
-  font-weight: 800;
+.branding {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
 
+.branding .navbar-brandy {
+  color: #da1212 !important;
+  font-family: "poppins";
+  line-height: 0.9em;
+  margin-left: 10px;
+  font-weight: 800;
+  list-style: none !important;
   letter-spacing: 1px;
+  font-style: italic;
+  padding: 0 10px !important;
 }
 
 .navbar-toggler {
@@ -49,6 +56,11 @@ body {
   background-color: transparent;
 }
 
+.container-fluid img {
+  width: 70px;
+  height: 70px;
+  margin-left: 30px;
+}
 .navbar-expand-lg .navbar-nav {
   padding: 0px !important;
   padding-bottom: 0px !important;
@@ -68,6 +80,17 @@ body {
   font-family: "rubik";
   padding: 10px 0px !important;
   transition: all 0.5s ease !important;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.middle-line {
+  content: "";
+  width: 100px;
+  height: 8px;
+  background-color: #da1212;
+  z-index: 100;
 }
 
 .nav-link:hover {
@@ -104,10 +127,11 @@ body {
 }
 
 .content {
+  padding-top: 100px;
   width: 60%;
-  height: 60%;
+  height: 80%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   flex-direction: column;
 }
 
@@ -130,4 +154,49 @@ body {
 .content p:nth-of-type(2) {
   text-decoration: 4px #da1212 underline;
   text-transform: capitalize;
+}
+
+.quality-container {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.qualities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+  min-height: 350px;
+  padding-top: 20px !important;
+  align-items: center;
+  text-align: center;
+}
+.qualities img {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+
+.knowledge {
+  width: 100%;
+  height: 50px;
+  margin: 0px !important;
+}
+
+.custom-jacks {
+  width: fit-content !important;
+  margin-left: 40px !important;
+  font-size: 25px !important;
+  background-color: #da1212 !important;
+  margin-top: 30px !important;
+  margin-right: 100px !important;
+}
+
+.new-badge {
+  top: 20px !important;
+  right: -50px !important;
+  font-weight: 500 !important;
+  transform: translateY(-20px);
+  background-color: gold !important;
 }
