@@ -9,69 +9,6 @@ body {
   height: 100vh;
 }
 
-.navbar {
-  background-color: transparent;
-  height: auto;
-  color: white;
-}
-
-.branding {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
-
-.branding .navbar-brandy {
-  color: #da1212 !important;
-  font-family: "poppins";
-  line-height: 0.9em;
-  margin-left: 10px;
-  font-weight: 800;
-  list-style: none !important;
-  letter-spacing: 1px;
-  font-style: italic;
-  padding: 0 10px !important;
-}
-
-.navbar-toggler {
-  border: 0px solid white !important;
-  color: black;
-  padding-top: 0px !important;
-  margin-right: 10px;
-}
-
-.navbar-toggler:focus,
-.navbar-toggler:active {
-  outline: none !important;
-  box-shadow: 0 0 0 0 !important;
-}
-
-.nav-bar-icon {
-  color: white;
-  font-size: 25px;
-}
-
-.container-fluid {
-  padding: 0px !important;
-  background-color: transparent;
-}
-
-.container-fluid img {
-  width: 70px;
-  height: 70px;
-  margin-left: 30px;
-}
-.navbar-expand-lg .navbar-nav {
-  padding: 0px !important;
-  padding-bottom: 0px !important;
-  padding-left: 20px !important;
-  width: 100% !important;
-  display: flex !important;
-  padding-right: 20px !important;
-  justify-content: flex-end !important;
-  column-gap: 30px;
-}
-
 .nav-link {
   color: white !important;
   font-size: 24px;
