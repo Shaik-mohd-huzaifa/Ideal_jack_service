@@ -32,30 +32,18 @@
 <body>
   <div class="landing">
     <div class="landing-background">
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <div class="branding">
-          <img src="images/Ideal-Website-logo.png">
-        <span class="display-5 navbar-brandy" href="#">IDEAL JACK SERVICE</span>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="nav-bar-icon">&#9776;</span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home<span class="middle-line"></span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing<span class="middle-line"></span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact<span class="middle-line"></span></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> 
+    <nav class="main-nav-container">
+      <div class="logo">
+
+      </div>
+       <div class="navbar">
+         <ul class="nav-container">
+           <li class="list-items"></li>
+           <li class="list-items"></li>
+           <li class="list-items"></li>
+         </ul>
+       </div>
+    </nav>
       <div class="content-container row">
       <div class="content col-sm-7">
         <h2>Worried about you costly and qualified equipments!! You are at the right place</h2>
@@ -66,8 +54,8 @@
     </div>
   </div>
 </div>
-<div class="row quality-container">
-           <div class="col-6 col-lg qualities bg-primary">
+<div class="row quality-container border">
+           <div class="col-6 col-lg qualities bg-primary" >
            <img src="" alt="">
            <h2 class="qualities-header">Examples</h2>
            <p class="qualities-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempore iure sapiente facere repudiandae. Odio sunt officiis, repellat aspernatur soluta natus eos facere. Voluptas quaerat quod facilis eligendi dolorem officiis.</p>
@@ -88,9 +76,9 @@
             <p class="qualities-discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempore iure sapiente facere repudiandae. Odio sunt officiis, repellat aspernatur soluta natus eos facere. Voluptas quaerat quod facilis eligendi dolorem officiis.</p>
           </div>
          </div>
-      <div class="row knowledge">
-        <div class="col-sm-8 bg-black"></div>
-        <div class="col-sm bg-warning"></div>
+      <div class="row knowledge justify-content-around justify-content-sm-between border-">
+        <div class="col-4 bg-black"></div>
+        <div class="col-4 bg-warning"></div>
       </div>
       <div class="service-container row">
         <div class="col-sm-3"></div>
@@ -99,6 +87,17 @@
         <div class="col-sm-3"></div>
       </div>
       </button>
+      <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" class="form-control" name="name" id="username" >
+        <label for="Email">Email</label>
+        <input type="text" class="form-control" name="email">
+      </div>
+      <label for="States">States</label>
+      <select name="States" class="form-control" id="">
+       <option value="KA">Karnataka</option>
+       <option value="AP">Andhra Pradesh</option>
+      </select>
       <script src="main.js"></script>
 </body>
 </html>
