@@ -44,6 +44,7 @@
   width: 50%;
   padding: 0px !important;
   display: flex;
+  z-index: 1000;
   justify-content: center;
 }
 
@@ -53,6 +54,7 @@
   width: 100%;
   column-gap: 40px;
   justify-content: flex-end;
+  z-index: 1000;
 }
 
 .navbar-link {
@@ -67,6 +69,7 @@
   align-content: center;
   list-style: none;
   position: relative;
+  z-index: 1000;
 }
 
 .nav-link:hover {
@@ -233,15 +236,20 @@
     padding-bottom: 0px;
   }
   .navbar {
+    display: ;
     width: 100%;
     margin-top: 10px;
   }
 
-  .nav-container.active {
+  .unvisible-nav {
+    display: none;
+    width: 100%;
+  }
+  .unvisible-nav.active {
     display: block;
   }
+
   .nav-container {
-    display: none;
     width: 100%;
     flex-direction: column;
     height: 180px;
@@ -268,5 +276,11 @@
     width: 100%;
     padding-right: 20px;
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .logo h1 {
+    font-size: 15px;
   }
 }
