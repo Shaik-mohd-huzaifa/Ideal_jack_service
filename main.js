@@ -11,15 +11,14 @@
 
 online();*/
 
-
-function displaynav(){
- let x = document.getElementById("changingnavbar");
- if( x.className === "nav-container"){
-   x.className += " active";
- }else{
-   x.className == "nav-container";
- }
+function display(){
+  let Navname = document.getElementById("changing-navbar");
+  console.log(Navname);
+  if(Navname.className === "unvisible-nav"){
+    Navname.className += " active";
+  }else{
+    Navname.className = "unvisible-nav";
+  }
 }
-
 
 // default argments
