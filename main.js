@@ -1,4 +1,4 @@
-function online(){
+/* function online(){
     let Onlinereport = navigator.onLine;
     if (Onlinereport === false){
       alert("Turn on your internet connection");
@@ -9,4 +9,17 @@ function online(){
     }
 }
 
-online();
+online();*/
+
+
+function displaynav(){
+ let x = document.getElementById("changingnavbar");
+ if( x.className === "nav-container"){
+   x.className += " active";
+ }else{
+   x.className == "nav-container";
+ }
+}
+
+
+// default argments
