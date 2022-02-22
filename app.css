@@ -236,12 +236,12 @@
     padding-bottom: 0px;
   }
   .navbar {
-    display: ;
     width: 100%;
     margin-top: 10px;
   }
 
   .unvisible-nav {
+    height: 180px;
     display: none;
     width: 100%;
   }
@@ -252,7 +252,7 @@
   .nav-container {
     width: 100%;
     flex-direction: column;
-    height: 180px;
+    height: 100%;
     justify-content: space-evenly;
     cursor: pointer;
   }
@@ -281,6 +281,6 @@
 
 @media screen and (max-width: 555px) {
   .logo h1 {
-    font-size: 20px;
+    font-size: 23px;
   }
 }
