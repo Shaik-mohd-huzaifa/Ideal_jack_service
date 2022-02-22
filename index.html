@@ -30,24 +30,26 @@
     <script src="main.js"></script>
 </head>
 <body>
-  <div class="landing">
-    <div class="landing-background">
     <nav class="main-nav-container">
       <div class="logo">
         <a href="index.html">
           <img  src="images/Ideal-Website-logo.png" alt="Ideal Jack Service Logo">
         </a>
          <h1>Ideal Jack Service</h1>
-         <span class="toggle-bar" id="togglemenu" href="javascript:void()" onclick="displaynav()">&#9776;</span>
+         <span class="toggle-bar" id="togglemenu" href="javascript:void()" onclick="display()">&#9776;</span>
       </div>
-       <div class="navbar" id="changingnavbar"> 
+       <div class="navbar"> 
+         <div class="unvisible-nav" id="changing-navbar">
          <ul class="nav-container" >
            <li class="navbar-link">Home<span class="center-line"></span></li>
            <li class="navbar-link">Pricing<span class="center-line"></span></li>
            <li class="navbar-link">Contact<span class="center-line"></span></li>
           </ul>
        </div>
+       </div>
     </nav>
+  <div class="landing">
+    <div class="landing-background">
       <div class="content-container row">
       <div class="content col-lg-8">
         <h2>Worried about you costly and qualified equipments!! You are at the right place</h2>
