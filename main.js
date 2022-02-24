@@ -16,9 +16,20 @@ function display(){
   console.log(Navname);
   if(Navname.className === "unvisible-nav"){
     Navname.className += " active";
+    document.getElementById("logoheader").style.display = "none";
   }else{
     Navname.className = "unvisible-nav";
+    document.getElementById("logoheader").style.display = "";
   }
+}
+
+function changenav(){
+   let togglebar = document.getElementById("rotating-nav");
+   if(togglebar.className === "wrong-nav"){
+     togglebar.className += " active";
+   }else{
+     togglebar.className = "wrong-nav";
+   }
 }
 
 // default argments

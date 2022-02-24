@@ -35,9 +35,13 @@
         <a href="index.html">
           <img  src="images/Ideal-Website-logo.png" alt="Ideal Jack Service Logo">
         </a>
-         <h1>Ideal Jack Service</h1>
-         <span class="toggle-bar" id="togglemenu" href="javascript:void()" onclick="display()">&#9776;</span>
-      </div>
+         <h1 id="logoheader">Ideal Jack Service</h1>
+         <div class="wrong-nav" id="rotating-nav" href="javascript:void()" onclick="display(); changenav()">
+          <div class="nav-lines"></div>
+          <div class="nav-lines"></div>
+          <div class="nav-lines"></div>
+        </div>      
+        </div>
        <div class="navbar"> 
          <div class="unvisible-nav" id="changing-navbar">
          <ul class="nav-container" >
@@ -104,6 +108,13 @@
        <option value="KA">Karnataka</option>
        <option value="AP">Andhra Pradesh</option>
       </select>
+      <div class="main-div-nav">
+      <div class="wrong-nav" id="rotating-nav" onclick=" changenav()">
+        <div class="nav-lines"></div>
+        <div class="nav-lines"></div>
+        <div class="nav-lines"></div>
+      </div>
+      </div>
       <script src="main.js"></script>
 </body>
 </html>
