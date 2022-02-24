@@ -319,9 +319,48 @@
     padding-left: 10px;
     justify-content: space-between;
   }
+  .landing {
+    height: 700px;
+  }
+  .content {
+    width: 100%;
+    text-align: center;
+    justify-content: flex-start;
+    height: 80%;
+    margin: 0px;
+    padding: auto 10px;
+  }
   .content h2,
   .content p {
-    backdrop-filter: blur(20px);
+    width: 100%;
+    padding: 0;
+    margin: 0px;
+    color: white;
+  }
+
+  .content p {
+    background-color: #0415629a;
+    margin-top: 10px;
+    border-radius: 2px;
+  }
+
+  .custom-jacks {
+    justify-self: flex-end;
+    padding: 10px !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    align-self: center;
+    margin: 30px 0 !important;
+  }
+
+  .new-badge {
+    top: 10px !important;
+    right: -25px !important;
+  }
+  .content-container {
+    width: 100%;
+    padding: 5px;
+    margin: 0px !important;
   }
 }
 
