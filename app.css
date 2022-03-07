@@ -13,7 +13,7 @@
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: white;
+  background-color: transparent;
   display: flex;
 }
 
@@ -58,13 +58,14 @@
   column-gap: 40px;
   justify-content: flex-end;
   z-index: 1000;
+  padding-right: 50px;
 }
 
 .navbar-link {
   color: #041562;
-  font-size: 23px;
-  font-weight: 600;
-  font-family: "poppins";
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Rubik";
   padding: 10px 0px !important;
   transition: all 0.5s ease !important;
   display: flex;
@@ -75,18 +76,9 @@
   z-index: 1000;
 }
 
-.nav-link:hover {
+.navbar-link:hover {
   transform: scale(1.1);
-}
-
-.center-line {
-  width: 0%;
-  height: 4px;
-  background-color: #da1212;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 @keyframes rise {
@@ -109,7 +101,7 @@
   background-image: url(images/1476771333_EPT20-15EHJ.png);
   background-repeat: no-repeat;
   background-size: auto;
-  background-position: right bottom;
+  background-position: bottom center;
   backdrop-filter: overlay(0.5);
 }
 
@@ -134,7 +126,7 @@
   width: 60%;
   height: 80%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   flex-direction: column;
 }
 
@@ -142,7 +134,7 @@
   font-size: 50px;
   font-family: "montserrat";
   font-weight: 700;
-  color: #041562;
+  color: white;
   margin-left: 40px;
 }
 
@@ -155,7 +147,6 @@
 }
 
 .content p:nth-of-type(2) {
-  text-decoration: 4px #da1212 underline;
   text-transform: capitalize;
 }
 
