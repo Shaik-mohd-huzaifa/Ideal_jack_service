@@ -22,10 +22,11 @@
   display: flex;
   column-gap: 10px;
   padding-left: 20px;
+  align-items: center;
 }
 
 .logo h1 {
-  font-size: 2.8rem;
+  font-size: 2em;
   font-style: italic;
   text-transform: uppercase;
   font-weight: 900;
@@ -36,8 +37,8 @@
   align-self: flex-end;
 }
 .logo img {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
 }
 
 .navbar {
@@ -113,7 +114,8 @@
   backdrop-filter: overlay(0.5);
 }
 
-.toggle-bar {
+.wrong-nav,
+.nav-lines {
   display: none;
 }
 
@@ -289,6 +291,10 @@
     display: block;
   }
 
+  .nav-lines {
+    display: block;
+  }
+
   .nav-container {
     width: 100%;
     flex-direction: column;
@@ -320,7 +326,8 @@
     justify-content: space-between;
   }
   .landing {
-    height: 700px;
+    height: 650px;
+    background-position: bottom right;
   }
   .content {
     width: 100%;
