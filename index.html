@@ -65,13 +65,23 @@
     <div class="form-container col-lg-5">
         <div class="floating-form">
           <h2>Get your Qualified Equipments Service from Quality Service Provider</h2>
-        <form action="#home">
-          <label for="EquipementName">Equipment Name/Model</label>
-          <input type="text" name="EquipementName" id="Name">
+        <form action="#home" class="mainform">
+          <div>
+          <label for="EquipementName">Equipment Type</label>
+          <input type="text" name="Equipementtype" id="Name" required>
+          </div>
+          <div>
+            <label for="EquipementName">Equipment Name/Model</label>
+            <input type="text" name="EquipementName"  id="Name">
+            </div>
+          <div>
           <label for="Email">Email</label>
-          <input type="text" name="Email" id="Email">
-          <label for="comment">Comment</label>
-          <input type="text" name="comment" id="comment">
+          <input type="email" name="Email" id="Email"  placeholder="example@domain.com">
+        </div>
+        <div>
+          <label for="comment">Condition/Problem Facing</label>
+          <textarea type="text" name="comment" style="height: 200px; width: 100%; background-color: gainsboro;" id="comment" placeholder="Condition of your equipment/Problem your facing with your equipment"></textarea>  
+          </div>
           <button type="submit">Submit</button>
         </form>
         
