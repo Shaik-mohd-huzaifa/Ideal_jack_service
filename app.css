@@ -63,7 +63,7 @@
 
 .navbar-link {
   color: #041562;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500;
   font-family: "Rubik";
   padding: 10px 0px !important;
@@ -74,11 +74,13 @@
   list-style: none;
   position: relative;
   z-index: 1000;
+  transition: all 0.1s ease;
 }
 
 .navbar-link:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   cursor: pointer;
+  text-align: center;
 }
 
 @keyframes rise {
@@ -88,11 +90,6 @@
   100% {
     width: 100%;
   }
-}
-
-.navbar-link:hover .center-line {
-  animation: rise 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-  width: 100%;
 }
 
 .landing {
