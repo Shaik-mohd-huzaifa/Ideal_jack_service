@@ -32,11 +32,19 @@ function changenav(){
    }
 }
 
-console.log("Class Name");
-// default argments for the function
 
-const $student_id = "STU2354";
-const $student_name = `Shaik Mohd Huzaifa`;
-const $student_sem = "3rd sem";
-const total = `Student Details \n Student id = ${$student_id} \n Student Name = ${$student_name} \n Current Semester = ${$student_sem}`;
-console.log(total);
+// function to send the form input to the email and display the message
+function sendForm(){
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let message = document.getElementById("message").value;
+
+  if(name === "" || email === "" || message === ""){
+    alert("Please fill in all the fields");
+  }else{
+    alert("Thank you for sending us your message");
+    document.getElementById("contactForm").reset();
+  }
+}
+
+
