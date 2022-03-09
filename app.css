@@ -245,12 +245,13 @@
 .floating-form {
   width: 440px;
   background-color: white;
-  height: 730px;
+  height: 660px;
   display: flex;
   flex-direction: column;
   padding: 20px;
   padding-top: 15px;
   position: fixed;
+  bottom: 0;
   border-radius: 5px;
   display: block;
 }
@@ -259,6 +260,7 @@
   font-family: "poppins";
   font-size: 30px;
   color: #da1212;
+  margin-bottom: 0px;
   font-weight: 600;
 }
 .mainform {
@@ -277,6 +279,7 @@
   background-color: gainsboro;
   border: 0;
   font-family: poppins;
+  padding-left: 10px;
 }
 
 .mainform input:focus-visible {
@@ -294,6 +297,7 @@
   border: 0;
   padding: 10px;
   font-family: poppins;
+  margin-bottom: 10px;
 }
 
 .mainform textarea:focus {
@@ -306,6 +310,7 @@
 .mainform button {
   height: 50px;
   border: 0;
+  margin: 0px;
   border-radius: 5px;
   background-color: #041562;
   color: white;
