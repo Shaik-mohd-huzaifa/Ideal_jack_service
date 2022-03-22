@@ -330,6 +330,9 @@
   font-weight: 500;
 }
 
+@media floating-form and (max-height: 770px) {
+}
+
 @media screen and (max-width: 1160px) {
   .logo h1 {
     font-size: 30px;
