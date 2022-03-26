@@ -521,6 +521,9 @@
     padding-left: 5px;
     align-items: center;
   }
+  .logo h1 {
+    align-self: flex-end;
+  }
 }
 
 @media screen and (max-width: 560px) {
