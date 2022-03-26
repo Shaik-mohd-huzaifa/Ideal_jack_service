@@ -478,17 +478,6 @@
   }
 }
 
-@media screen and (max-width: 555px) {
-  .logo h1 {
-    font-size: 23px;
-  }
-  .logo {
-    padding-right: 5px;
-    padding-left: 5px;
-    align-items: center;
-  }
-}
-
 @media screen and (max-height: 700px) {
   .mainform input {
     margin-bottom: 5px;
@@ -511,7 +500,31 @@
   }
 }
 
-@media miniipad and (max-height: 684px) {
-  .floating-form {
+/*  removing navbar when size is less */
+@media screen and (max-width: 1090px) {
+  #form-container {
+    display: none;
+  }
+  .content {
+    width: 100% !important;
+    height: 70%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .logo h1 {
+    font-size: 23px;
+  }
+  .logo {
+    padding-right: 5px;
+    padding-left: 5px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .landing {
+    height: 100vh;
   }
 }
