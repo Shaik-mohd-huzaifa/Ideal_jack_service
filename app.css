@@ -245,11 +245,12 @@
 .floating-form {
   width: 440px;
   background-color: white;
-  height: 660px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   padding: 20px;
   padding-top: 15px;
+  padding-bottom: 10px;
   position: fixed;
   bottom: 0;
   border-radius: 5px;
@@ -280,6 +281,29 @@
   border: 0;
   font-family: poppins;
   padding-left: 10px;
+}
+
+.mainform select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  background-color: gainsboro;
+  border: 0;
+  font-family: poppins;
+  padding: 4px;
+  padding-left: 10px;
+}
+
+.mainform select:focus-visible {
+  outline: 0px;
+}
+
+.mainform select:focus {
+  border-bottom: 2px solid #041562;
+}
+.mainform select option {
+  background-color: white;
 }
 
 .mainform input:focus-visible {
@@ -484,5 +508,10 @@
   .floating-form {
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+}
+
+@media miniipad and (max-height: 684px) {
+  .floating-form {
   }
 }
