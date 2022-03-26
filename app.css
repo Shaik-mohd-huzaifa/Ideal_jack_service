@@ -199,7 +199,6 @@
 }
 
 .wrong-nav {
-  margin-top: 5px;
   width: 30px;
   height: 30px;
   display: flex;
@@ -523,6 +522,12 @@
   }
   .logo h1 {
     align-self: flex-end;
+  }
+  .content p {
+    background-color: transparent !important;
+  }
+  .wrong-nav {
+    margin-top: 0px;
   }
 }
 
