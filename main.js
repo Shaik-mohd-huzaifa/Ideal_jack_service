@@ -51,11 +51,11 @@ function sendForm(){
 
   function floatingFormHeight(){
   const screenheight = window.innerHeight;
-  if(screenheight < 720){
-    document.getElementById("Name").style.background = "black";
-    document.getElementById("Form-header").color = "white";
+  if(screenheight < 682){
+    document.getElementById("form-container").style.display = "none";
+    document.getElementById("form-container").style.transition = "all 0.2s ease";
   }else{
-    document.getElementById("Name").style.background = "";
+    document.getElementById("form-container").style.display = "";
   }
 }
 
@@ -87,3 +87,5 @@ function dropquote(){
     dropcontainer.className = "drop-container";
   }
 }
+
+
