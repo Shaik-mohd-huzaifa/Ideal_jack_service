@@ -62,13 +62,20 @@
       <p>Specialized in Hydraulic Jack servicing</p>
       <h2 href="" class="custom-jacks badge text-light position-relative">Custom made hydraulic Jack's <span class="new-badge position-absolute top-0 rounded-pill badge">New</span></h2>     
     </div>
-    <div class="form-container col-lg-5">
+    <div class="form-container col-lg-5" id="form-container">
         <div class="floating-form">
           <h2>Get your Qualified Equipments Service from Quality Service Provider</h2>
         <form class="mainform">
           <div>
-          <label for="EquipementName">Equipment Type</label>
-          <input type="text" name="Equipement-type" id="Name" id="equipment-type" placeholder="Ex: Hydraulic Jack" required>
+          <label for="Equipement-type">Equipment Type</label>
+          <select name="Equipement-type" id="Equipment-list" required>
+            <option value="default">Select</option>
+            <option value="trolley-jack">Trolley Jack</option>
+            <option value="bottle-jack">Trolley Jack</option>
+            <option value="Hydraulic-jack">Other Hydraulic Jack</option>
+            <option value="Pneumatic-gun">Pneumatic Gun</option>
+          </select>
+          <!-- <input type="text" name="Equipement-type" id="Name" id="equipment-type" placeholder="Ex: Hydraulic Jack" required> -->
           </div>
           <div>
             <label for="EquipementName">Equipment Name/Model</label>
