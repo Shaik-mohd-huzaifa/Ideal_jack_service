@@ -30,6 +30,14 @@ function changenav(){
    }else{
      togglebar.className = "wrong-nav";
    }
+
+   let background = document.getElementById("main-nav-container").className;
+   if(background = "main-nav-container"){
+     document.getElementById("main-nav-container").style.backgroundColor = "white";
+   }else{
+    document.getElementById("main-nav-container").style.backgroundColor = "";
+   }
+
 }
 
 
