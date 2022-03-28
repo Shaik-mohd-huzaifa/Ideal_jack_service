@@ -242,9 +242,9 @@
 }
 
 .floating-form {
-  width: 440px;
+  width: 400px;
   background-color: white;
-  height: 650px;
+  height: 570px;
   display: flex;
   flex-direction: column;
   padding: 20px;
