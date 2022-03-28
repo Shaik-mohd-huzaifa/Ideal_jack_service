@@ -540,6 +540,9 @@
   .landing {
     height: 100vh;
   }
+  .content h2 {
+    font-size: 2.5em;
+  }
 }
 
 @media screen and (max-width: 555px) {
