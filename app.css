@@ -353,6 +353,26 @@
   font-weight: 500;
 }
 
+@media screen and (max-width: 555px) {
+  .logo h1 {
+    font-size: 23px;
+  }
+  .logo {
+    padding-right: 5px;
+    padding-left: 5px;
+    align-items: center;
+  }
+  .logo h1 {
+    align-self: flex-end;
+  }
+  .content p {
+    background-color: transparent !important;
+  }
+  .wrong-nav {
+    margin-top: 0px;
+  }
+}
+
 @media screen and (max-width: 1160px) {
   .logo h1 {
     font-size: 30px;
@@ -378,10 +398,49 @@
   }
 }
 
+@media screen and (max-height: 700px) {
+  .mainform input {
+    margin-bottom: 5px;
+  }
+  .floating-form h2 {
+    font-size: 23px;
+  }
+  .mainform label {
+    font-size: 16px;
+  }
+  .floating-form {
+    height: 580px;
+  }
+  .main-form button {
+    font-size: 18px;
+  }
+  .floating-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/*  removing navbar when size is less */
+@media screen and (max-width: 1090px) {
+  #form-container {
+    display: none;
+  }
+  .content-container {
+    display: flex;
+    align-items: flex-end;
+  }
+  .content {
+    width: 100% !important;
+    height: 70%;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 790px) {
   .main-nav-container {
     display: block;
     padding-bottom: 0px;
+    position: absolute;
   }
   .navbar {
     width: 100%;
@@ -477,37 +536,9 @@
   }
 }
 
-@media screen and (max-height: 700px) {
-  .mainform input {
-    margin-bottom: 5px;
-  }
-  .floating-form h2 {
-    font-size: 23px;
-  }
-  .mainform label {
-    font-size: 16px;
-  }
-  .floating-form {
-    height: 580px;
-  }
-  .main-form button {
-    font-size: 18px;
-  }
-  .floating-form {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
-
-/*  removing navbar when size is less */
-@media screen and (max-width: 1090px) {
-  #form-container {
-    display: none;
-  }
-  .content {
-    width: 100% !important;
-    height: 70%;
-    justify-content: center;
+@media screen and (max-width: 560px) {
+  .landing {
+    height: 100vh;
   }
 }
 
@@ -534,5 +565,12 @@
 @media screen and (max-width: 560px) {
   .landing {
     height: 100vh;
+  }
+  .nav-container {
+    padding-right: 0px;
+    padding: 10px;
+  }
+  .navbar-link {
+    font-family: "montserrat";
   }
 }
