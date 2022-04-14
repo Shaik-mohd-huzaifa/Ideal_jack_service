@@ -35,6 +35,7 @@ function changenav(){
 }
 
 
+
 // function to send the form input to the email and display the message
 function sendForm(){
   let name = document.getElementById("name").value;
@@ -53,7 +54,7 @@ function sendForm(){
 
   function floatingFormHeight(){
   const screenheight = window.innerHeight;
-  if(screenheight < 682){
+  if(screenheight < 630){
     document.getElementById("form-container").style.display = "none";
     document.getElementById("form-container").style.transition = "all 0.2s ease";
   }else{
@@ -90,4 +91,5 @@ function dropquote(){
   }
 }
 
-
+// calculate the sum of two matrixes
+ 
