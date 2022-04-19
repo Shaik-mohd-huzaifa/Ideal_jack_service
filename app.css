@@ -654,10 +654,11 @@
      color: black;
      border-bottom: 2.5px solid transparent;
      transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+     cursor: pointer;
    }
 
    .nav-container.active .navbar-link:hover, .nav-container.active .navbar-link:focus{
-     border-bottom: 2.4px solid red;
+     border-bottom: 2.4px solid #da1212;
    }
 
 }
