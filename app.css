@@ -458,6 +458,12 @@
   justify-content: space-evenly;
 }
 
+.testimonial h2{
+  font-family: 'poppins';
+  font-weight: 600;
+  text-decoration: 3px red underline;
+}
+
 .testi-boxes{
   width: 45%;
   padding: 20px;
