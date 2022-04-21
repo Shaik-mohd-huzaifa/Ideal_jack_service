@@ -451,6 +451,56 @@
   font-weight: 600;
 }
 
+.testimonial{
+  width: 100%;
+  display: flex;
+  column-gap: 4%;
+  justify-content: space-evenly;
+}
+
+.testi-boxes{
+  width: 45%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.testi-boxes p{
+   font-family: 'poppins';
+}
+
+.writer-info{
+  display: flex;
+  justify-self: flex-end;
+}
+
+.writer-info img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.writer-details{
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.writer-details h6{
+  font-family: 'montserrat';
+  font-weight: 600;
+  margin: 0px;
+}
+
+.writer-details p{
+   margin: 0px;
+   font-size: 13px;
+}
 
 @media screen and (max-width: 555px) {
   .logo h1 {
