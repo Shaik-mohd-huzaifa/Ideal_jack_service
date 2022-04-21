@@ -1,15 +1,16 @@
-/* function online(){
+ function online(){
     let Onlinereport = navigator.onLine;
     if (Onlinereport === false){
-      alert("Turn on your internet connection");
-      document.querySelector('body').style.height = "100vh";
-    }
-    else{
-        document.querySelector('body').style.display = 'block';
+     document.getElementById("No-internet").className += " active";
+     document.querySelector("body").style.overflow = "hidden"
+    }else{
+      document.getElementById("No-internet").className = "ConnectionDisplay";
+      document.querySelector("body").style.overflow = "";
     }
 }
 
-online();*/
+// online();
+
 function display(){
 let Mainynav = document.getElementById("main-navbar");
  if(Mainynav.className === "navbar"){
@@ -86,7 +87,6 @@ function sendForm(){
   const screenheight = window.innerHeight;
   if(screenheight < 630){
     document.getElementById("form-container").style.display = "none";
-    document.getElementById("form-container").style.transition = "all 0.2s ease";
   }else{
     document.getElementById("form-container").style.display = "";
   }
@@ -112,6 +112,9 @@ function changeColor(){
 }
 
 
+
+
+
 function dropquote(){
   const dropcontainer = document.getElementById("drop-container");
   if(dropcontainer.className === "drop-container"){
@@ -122,14 +125,7 @@ function dropquote(){
 } 
 
 
-function onlinechecker(){
-  const $online = navigator.onLine;
-if($online === true){
 
-}else{
-  
-}
-}
 
 // calculate the sum of two matrixes
  
