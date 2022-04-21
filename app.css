@@ -446,7 +446,7 @@
 }
 
 .features-container h2{
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: 'poppins';
   font-weight: 600;
 }
@@ -456,12 +456,24 @@
   display: flex;
   column-gap: 4%;
   justify-content: space-evenly;
+  margin-left: 10px;
 }
 
-.testimonial h2{
+.testi-header{
   font-family: 'poppins';
   font-weight: 600;
-  text-decoration: 3px red underline;
+  text-decoration: 3px #da1212 underline;
+  display: block;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.divider{
+  width: 150px;
+  margin: 20px 40px 10px;
+  background: #da1212;
+  height: 6px; 
 }
 
 .testi-boxes{
@@ -547,6 +559,14 @@
 
 }
 
+@media screen and (max-width: 1350px){
+  .testimonial{
+    width: 90%;
+    column-gap: 20px;
+  }
+}
+
+
 @media screen and (max-width: 860px) {
   .floating-form{
     visibility: hidden;
@@ -587,6 +607,21 @@
      text-decoration: 3px #da1212 underline;
 
    }
+   .testi-header{
+     width: 100%;
+     margin-left: 0px !important;
+     text-align: center;
+   }
+   .testimonial{
+     width: 100%;
+     justify-content: space-evenly;
+     box-sizing: border-box;
+     margin-left: 0px;
+       
+    }
+   .divider{
+     margin: 30px auto;
+   }
 }
 
 @media screen and (max-width: 1175px){
@@ -605,6 +640,26 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 980px){
+  .testi-boxes{
+     height: 300px;
+     text-align: center;
+  }
+  .writer-details p{
+    line-height: 1em;
+  }
+  .testimonial{
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .testi-header{
+    margin-left: 30px;
+    margin-right: 0px !important;
+  }
+}
+
+
 
 @media screen and (max-width: 1160px) {
   .logo h1 {
@@ -645,6 +700,12 @@
   }
   .features-container h2{
     font-size: 25px;
+  }
+  .testi-header{
+    font-size: 25px;
+  }
+  .testimonial{
+    column-gap: 10px;
   }
 }
 
@@ -858,6 +919,31 @@
   .navbar{
     width: 50%;
     margin: 0px;
+  }
+  .testi-boxes{
+    height: 220px;
+    padding: 15px;
+    text-align: left;
+  }
+  .testi-boxes p{
+    font-size: 13px;
+  }
+  .writer-info img{
+    width: 50px;
+    height: 50px;
+    /* display: block; */
+  }
+  .testi-header{
+      font-size: 22px;
+  }
+  .writer-details{
+    text-align: left;
+  }
+  .writer-details h6{
+    font-size: 14px;
+  }
+  .writer-details p{
+    font-size: 11px;
   }
 }
 
