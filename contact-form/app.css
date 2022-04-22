@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+}
+
+
+.main-nav-container {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    display: flex;
+  }
+  
+  .logo {
+    width: 50%;
+    display: flex;
+    column-gap: 10px;
+    padding-left: 20px;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    font-size: 10px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #041562;
+    margin-left: 1rem;
+    font-family: poppins;
+    margin: 0px;
+  }
+  .logo img {
+    width: 324px;
+    height: 60px;
+  }
+  
+  .navbar {
+    width: 50%;
+    padding: 0px !important;
+    display: flex;
+    z-index: 1000;
+    justify-content: center;
+  }
+  
+  .unvisible-nav {
+    width: 100%;
+  }
+  .nav-container {
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    column-gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1000;
+    padding-right: 50px;
+  }
+  
+  .navbar-link {
+    /* color: #041562; */
+    color: #da1212;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins";
+    padding: 5px 10px !important;
+    transition: all 0.5s ease !important;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    position: relative;
+    z-index: 1000;
+    /* border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.385);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px); */
+  }
+  
+  .navbar-link:hover {
+    cursor: pointer;
+  }
+  
+  @keyframes rise {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+
+  .form-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+  .form{
+    width: 90%;
+    height: 90%;
+    padding-top: 30px;
+  }
+  
+  .form-boxes{
+      width: 60%;
+     display: flex;
+     /* column-gap: 100px; */
+     padding-left: 30px;
+     margin-bottom: 30px;
+     justify-content: space-around;
+  }
+  
+  .form-boxes input{
+      width: 300px;
+      height: 25px;
+      font-family: 'poppins';
+      background-color: #dbdbdb;
+      border: 0;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      padding: 5px;
+  }
+  .form-boxes select{
+      width: 309px;
+      height: 35px;
+      background-color: #dbdbdb;
+      font-family: 'poppins';
+      color: -internal-light-dark(black, white);
+  }
+  .form-boxes label{
+    font-size: 16px;
+    font-family: 'montserrat';
+    font-weight: 500;
+    background-color: #da1212;
+    padding: 7px 5px;
+    color: white;
+  }
+
+
+  
+
+  .form-boxes div{
+    display: flex;
+    flex-direction: column;
+  }
+  .testi-header{
+    font-family: 'poppins';
+    font-weight: 600;
+    text-decoration: 3px #da1212 underline;
+    display: block;
+    font-size: 30px;
+  }
