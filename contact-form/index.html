@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Basic Metas -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- StyleSheet Linking -->
+    <link rel="stylesheet" href="app.css">
+
+    <!-- Title -->
     <title>Get Quote - For Your Equipments</title>
 </head>
 <body>
     <nav class="main-nav-container" id="main-nav-container">
         <div class="logo" id="logo-container">
-         <a href="index.html">
-            <img  src="images/ideal jack service colored image-10-10.png" alt="Ideal Jack Service Logo">
-         </a>
+         <a href="C:/Users/SHAIK%20MOHD%20HUZAIFA/Documents/GitHub/Ideal_jack_service/index.html">
+            <img src="images/ideal jack service colored image-10-10.png" alt="Ideal Jack Service Logo">
+        </a>
           </div>
          <div class="navbar" id="main-navbar"> 
            <ul class="nav-container" id="nav-container">
              <li class="navbar-link">Custom<span class="center-line"></span></li>
              <li class="navbar-link">Spares<span class="center-line"></span></li>
              <li class="navbar-link">Pricing<span class="center-line"></span></li>
-             <li class="navbar-link">Contact<span class="center-line"></span></li>
+             <li class="navbar-link" style="color: #041562;">Contact<span class="center-line"></span></li>
             
             <div class="wrong-nav" id="rotating-nav" href="javascript:void()" onclick="changenav(); display()">
               <div class="rotating-box" id="rotating-container">
@@ -30,5 +37,49 @@
           </ul>
          </div>
       </nav>
+      
+    <div class="form-container">
+        <h2 class="testi-header">Get Quote</h2>
+          <div class="form">
+            <form action="/submit">
+                <div class="form-boxes">
+                    <div class="">
+                    <label for="Username">Name/Company name</label>
+                    <input type="text" name="Username" id="username" placeholder="John/John ltd" required>
+                </div>
+                <div class="">
+                    <label for="Email">Email Id</label>
+                    <input type="email" name="Email" id="email" placeholder="username@domain.com" required>
+                </div>
+            </div>
+                <div class="form-boxes">
+                    <div>
+                    <label for="equipment-type">Equipment Type</label>
+                    <select name="equipment-type" id="equipment-type">
+                        <option value="default">Select</option>
+                        <option value="trolley-jack">Trolley jack</option>
+                        <option value="Pneumatic-gun">Pneumatic Gun/ Wrench</option>
+                        <option value="Hydraulic-jack">Other Hydraulic Jacks</option>
+                        <option value="other-pneumatic-equipments">Pneumatic Equipments</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="equipment-model">Equipment Model</label>
+                    <input type="text" name="equipment-name" id="equipment-name" placeholder="3 ton/ 3M Wrench">
+                </div>
+            </div>
+                  <div class="form-boxes">
+                    <div>  
+                    <label for="Phone-number">Phone Number</label>
+                      <input type="Number" name="Phone-number" id="Phone-num">
+                     </div>
+                     <div>
+                      <label for="Condition">Condition / Issue Facing</label>
+                      <textarea name="Condition" id="condition" cols="30" rows="10" style="resize: none; background-color: #dbdbdb; height: 200px; width: 309px; padding-left: 5px; box-sizing: border-box; font-family: 'poppins';" placeholder="Condition of your equipment/Problem your facing with your equipment.                                        Ex: Hydraulic jack not lifting weight."></textarea>
+                  </div>
+                </div>
+            </form>
+          </div>
+      </div>
 </body>
 </html>
