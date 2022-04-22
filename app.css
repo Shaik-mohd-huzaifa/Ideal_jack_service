@@ -393,7 +393,7 @@
   border-radius: 5px;
   background-color: #041562;
   color: white;
-  font-family: rubik;
+  font-family: montserrat;
   font-size: 20px;
 }
 
@@ -404,7 +404,7 @@
 }
 
 .mainform label {
-  font-family: rubik;
+  font-family: montserrat;
   font-size: 16px;
   font-weight: 500;
 }
@@ -455,7 +455,8 @@
   width: 100%;
   display: flex;
   column-gap: 4%;
-  justify-content: space-evenly;
+  padding: 30px;
+  column-gap: 30px;
   margin-left: 10px;
 }
 
@@ -520,6 +521,96 @@
    font-size: 13px;
 }
 
+.issue-container{
+  width: 100%;
+  padding: 10px;
+  padding-left: 40px;
+
+}
+
+.common-issues{
+  width: 100%;
+  /* border: 1px solid #dbdbdb; */
+}
+
+.issues{
+  padding-top: 10px;
+  padding-bottom: 0px;
+  width: 100%;
+  border-bottom: 2px solid #dbdbdb;
+}
+
+.issues:nth-of-type(4){
+  border-bottom: 0px solid white;
+}
+
+.issues h4{
+  width: 100%;
+  color: white;
+  background-color: #da1212;
+  font-family: 'poppins';
+  padding: 10px;
+  padding-left: 10px;
+  font-size: 22px;
+  margin-bottom: 0; 
+
+}
+.issues p{
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  background-color: #dbdbdb;
+  font-family: 'poppins';
+  font-weight: 500;
+}
+
+.price-container{
+  width: 100%;
+  padding: 20px;
+  padding-left: 40px;
+  /* margin-top: 10px; */
+  display: flex;
+}
+
+.service-type{
+  width: 50%
+}
+
+.service-header{
+  font-size: 23px;
+  font-family: "montserrat";
+  font-weight: 600;
+  padding: 10px 20px;
+  margin: 0px;
+  background-color: #da1212;
+  color: white;
+  border: 3px solid white;
+  border-bottom: 0;
+}
+
+.price .service-header{
+  border-left: 0;
+}
+.lists{
+  width: 100%;
+  background-color: #dbdbdb;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'poppins';
+  margin: 0px;
+  border: 3px solid white;;
+  border-bottom: 0px;
+}
+
+.price .lists{
+  border-left: 0px;
+}
+
+.price{
+  width: 50%;
+}
+
 @media screen and (max-width: 555px) {
   .logo h1 {
     font-size: 23px;
@@ -563,6 +654,12 @@
   .testimonial{
     width: 90%;
     column-gap: 20px;
+  }
+  .issue-container{
+    width: 90%;
+  }
+  .price-container{
+   width: 90%;
   }
 }
 
@@ -616,11 +713,23 @@
      width: 100%;
      justify-content: space-evenly;
      box-sizing: border-box;
-     margin-left: 0px;
-       
+     margin-left: 0px;    
     }
    .divider{
      margin: 30px auto;
+   }
+   .issue-container{
+     width: 100%;
+     padding-left: 15px !important;
+     padding: 15px;
+   }
+   .common-issues{
+     width: 100% !important;
+     margin-right: 0px !important;
+   }
+   .price-container{
+     width: 100%;
+     padding: 15px;
    }
 }
 
@@ -650,12 +759,38 @@
     line-height: 1em;
   }
   .testimonial{
-    justify-content: center;
+    justify-content: space-between;
     column-gap: 10px;
+    padding-left: 25px;
+    margin-left: 0px;
+  }
+  .testi-boxes{
+    width: 48%;
   }
   .testi-header{
     margin-left: 30px;
     margin-right: 0px !important;
+  }
+  .issue-container{
+    padding-left: 25px;
+  }
+  .common-issues{
+    width: 90%;
+  }
+  .issues h4{
+    font-size: 18px;
+  }
+  .issues p{
+    font-size: 15px;
+  }
+  .price-container{
+    padding-left: 25px;
+  }
+  .service-type{
+    width: 55%;
+  }
+  .price{
+    width: 45%;
   }
 }
 
@@ -706,6 +841,12 @@
   }
   .testimonial{
     column-gap: 10px;
+  }
+  .service-header{
+    font-size: 17px;
+  }
+  .lists{
+    font-size: 14px;
   }
 }
 
@@ -913,12 +1054,19 @@
     /* padding: 10px; */
     
   }
+  .content h2{
+    font-size: 20px;
+  }
   .navbar-link {
     font-family: "montserrat";
   }
   .navbar{
     width: 50%;
     margin: 0px;
+  }
+  .testimonial{
+    justify-content: space-evenly;
+    padding: 10px;
   }
   .testi-boxes{
     height: 220px;
@@ -945,6 +1093,23 @@
   .writer-details p{
     font-size: 11px;
   }
+  .price-container{
+    padding: 15px;
+  }
+  .lists{
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .service-type{
+    width: 50%;
+  }
+  .price{
+    width: 50%;
+  }
+  .service-header{
+    padding: 5px 10px;
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 430px){
@@ -954,4 +1119,5 @@
   .content p{
     font-size: 14px;
   }
+
 }
