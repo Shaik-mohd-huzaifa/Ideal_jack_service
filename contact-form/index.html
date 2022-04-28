@@ -12,6 +12,9 @@
 
     <!-- Title -->
     <title>Get Quote - For Your Equipments</title>
+
+    <!-- Script -->
+    <script src="main.js"></script> 
 </head>
 <body>
     <nav class="main-nav-container" id="main-nav-container">
@@ -37,7 +40,6 @@
           </ul>
          </div>
       </nav>
-      
     <div class="form-container">
         <h2 class="testi-header">Get Quote</h2>
           <div class="form">
@@ -56,7 +58,7 @@
                     <div>
                     <label for="equipment-type">Equipment Type</label>
                     <select name="equipment-type" id="equipment-type">
-                        <option value="default">Select</option>
+                        <option value="default" style="padding: 10px;">Select</option>
                         <option value="trolley-jack">Trolley jack</option>
                         <option value="Pneumatic-gun">Pneumatic Gun/ Wrench</option>
                         <option value="Hydraulic-jack">Other Hydraulic Jacks</option>
@@ -70,16 +72,20 @@
             </div>
                   <div class="form-boxes">
                     <div>  
+                        <div class="sub-div">
                     <label for="Phone-number">Phone Number</label>
-                      <input type="Number" name="Phone-number" id="Phone-num">
+                      <input type="Number" name="Phone-number" id="Phone-num" >
+                    </div>
+                      <button type="submit">Submit</button>
                      </div>
                      <div>
                       <label for="Condition">Condition / Issue Facing</label>
-                      <textarea name="Condition" id="condition" cols="30" rows="10" style="resize: none; background-color: #dbdbdb; height: 200px; width: 309px; padding-left: 5px; box-sizing: border-box; font-family: 'poppins';" placeholder="Condition of your equipment/Problem your facing with your equipment.                                        Ex: Hydraulic jack not lifting weight."></textarea>
+                      <textarea name="Condition" id="condition" cols="30" rows="10" style="resize: none; background-color: #dbdbdb; height: 200px; width: 309px; padding-left: 5px; box-sizing: border-box; font-family: 'montserrat'; font-weight: 500;" placeholder="Condition of your equipment/Problem your facing with your equipment.                                        Ex: Hydraulic jack not lifting weight."></textarea>
                   </div>
                 </div>
             </form>
           </div>
       </div>
+      <script src="main.js"></script>
 </body>
 </html>
