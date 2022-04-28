@@ -1055,10 +1055,18 @@
     
   }
   .content h2{
-    font-size: 20px;
+    font-size: 25px;
+  }
+  .content p{
+    font-size: 16px;
   }
   .navbar-link {
     font-family: "montserrat";
+    
+  }
+
+  a{
+    color: black !important;
   }
   .navbar{
     width: 50%;
