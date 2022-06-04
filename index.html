@@ -1,194 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
+  <head>
     <!-- meta for disable scaling on screen-->
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />    
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-    <!-- Meta Data-->  
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!-- Meta Data-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Bootstrap CDN link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
     <!-- Custom stylesheet link-->
-    <link rel="stylesheet" href="app.css">
-    
+    <link rel="stylesheet" href="app.css" />
+
     <!-- Bootstrap links -->
-    <link rel="stylesheet" href="https://github.com/Shaik-mohd-huzaifa/px-to-Vw-and-Vw-Converter/blob/main/style.css">
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css">
+    <link
+      rel="stylesheet"
+      href="https://github.com/Shaik-mohd-huzaifa/px-to-Vw-and-Vw-Converter/blob/main/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css"
+    />
     <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <!--FONT CDN LINKS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Neonderthaw&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Neonderthaw&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed&family=montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Shortcut Icon-->
-    <link rel="shortcut icon" href="images/Ideal-Website-logo.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="images/Ideal-Website-logo.png"
+      type="image/x-icon"
+    />
     <title>Best Hydraulic Equipment Service | Ideal Jack Service</title>
 
     <!-- Script -->
     <script src="main.js"></script>
-</head>
-<body>
-  <div class="ConnectionDisplay" id="No-internet">
-  <div class="middlebox">
-    <div class="rotating-circle"></div>
-    <h4>You're Not connected to internet</h4>
-  </div>
-  </div>
-  <div class="landing">
-    <div class="landing-background">
-    <nav class="main-nav-container" id="main-nav-container">
-      <div class="logo" id="logo-container">
-       <a href="/index.html">
-          <img  src="images/ideal jack service colored image-10-10.png" alt="Ideal Jack Service Logo">
-       </a>
-        </div>
-       <div class="navbar" id="main-navbar"> 
-         <ul class="nav-container" id="nav-container">
-           <li class="navbar-link">Custom</li>
-           <li class="navbar-link">Spares</li>
-           <li class="navbar-link">Pricing</li>
-           <li class="navbar-link"><a href="contact-form/index.html" style="text-decoration: none; color: white">Contact</a></li>
-          
-          <div class="wrong-nav" id="rotating-nav" href="javascript:void()" onclick="changenav(); display()">
-            <div class="rotating-box" id="rotating-container">
-            <div class="nav-lines"></div>
-            <div class="nav-lines"></div>
-            <div class="nav-lines"></div>
-          </div>
-          </div>
-        </ul>
-       </div>
-    </nav>
-      <div class="content-container row">
-      <div class="content col col-lg-7">
-        <h2 id="Form-header" class="Formheader">Worried about you costly and qualified equipments!! You are at the right place</h2>
-      <p>We repair and service all types of hydraulic and pneumatic equipment, with a focus on hydraulic jacks.</p>
-      <h2 href="" class="custom-jacks badge text-light position-relative">Custom made Jack's <span class="new-badge position-absolute top-0 rounded-pill badge">New</span></h2>     
+  </head>
+  <body>
+    <div class="ConnectionDisplay" id="No-internet">
+      <div class="middlebox">
+        <div class="rotating-circle"></div>
+        <h4>You're Not connected to internet</h4>
+      </div>
     </div>
-    <div class="form-container col-lg-5" id="form-container">
-        <div class="floating-form">
-          <h2>Get your Qualified Equipments Service from Quality Service Provider</h2>
-        <form class="mainform">
-          <div>
-          <label for="Equipement-type">Equipment Type</label>
-          <select name="Equipement-type" id="Equipment-list" required>
-            <option value="default">Select</option>
-            <option value="trolley-jack">Trolley Jack</option>
-            <option value="Pneumatic-gun">Pneumatic Gun/ Wrench</option>
-            <option value="Hydraulic-jack">Other Hydraulic Jacks</option>
-            <option value="other-Neumatic-equipments">Pneumatic Equipments</option>
-          </select>
-          <!-- <input type="text" name="Equipement-type" id="Name" id="equipment-type" placeholder="Ex: Hydraulic Jack" required> -->
+    <div class="landing">
+      <div class="landing-background">
+        <nav class="main-nav-container" id="main-nav-container">
+          <div class="logo" id="logo-container">
+            <a href="/index.html">
+              <img
+                src="images/ideal jack service colored image-10-10.png"
+                alt="Ideal Jack Service Logo"
+              />
+            </a>
           </div>
-          <div>
-            <label for="EquipementName">Equipment Name/Model</label>
-            <input type="text" name="Equipement-Name"  id="equipment-name" placeholder="Ex: Trolley Jack / GRY45734">
+          <div class="navbar" id="main-navbar">
+            <ul class="nav-container" id="nav-container">
+              <li class="navbar-link">Custom</li>
+              <li class="navbar-link">Spares</li>
+              <li class="navbar-link">Pricing</li>
+              <li class="navbar-link">
+                <a
+                  href="contact-form/index.html"
+                  style="text-decoration: none; color: white"
+                  >Contact</a
+                >
+              </li>
+
+              <div
+                class="wrong-nav"
+                id="rotating-nav"
+                href="javascript:void()"
+                onclick="changenav(); display()"
+              >
+                <div class="rotating-box" id="rotating-container">
+                  <div class="nav-lines"></div>
+                  <div class="nav-lines"></div>
+                  <div class="nav-lines"></div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </nav>
+        <div class="content-container row">
+          <div class="content col col-lg-7">
+            <h2 id="Form-header" class="Formheader">
+              Worried about you costly and qualified equipments!! You are at the
+              right place
+            </h2>
+            <p>
+              We repair and service all types of hydraulic and pneumatic
+              equipment, with a focus on hydraulic jacks.
+            </p>
+            <h2 href="" class="custom-jacks badge text-light position-relative">
+              Custom made Jack's
+              <span class="new-badge position-absolute top-0 rounded-pill badge"
+                >New</span
+              >
+            </h2>
+          </div>
+          <div class="form-container col-lg-5" id="form-container">
+            <div class="floating-form">
+              <h2>
+                Get your Qualified Equipments Service from Quality Service
+                Provider
+              </h2>
+              <form class="mainform">
+                <div>
+                  <label for="Equipement-type">Equipment Type</label>
+                  <select name="Equipement-type" id="Equipment-list" required>
+                    <option value="default">Select</option>
+                    <option value="trolley-jack">Trolley Jack</option>
+                    <option value="Pneumatic-gun">Pneumatic Gun/ Wrench</option>
+                    <option value="Hydraulic-jack">
+                      Other Hydraulic Jacks
+                    </option>
+                    <option value="other-Neumatic-equipments">
+                      Pneumatic Equipments
+                    </option>
+                  </select>
+                  <!-- <input type="text" name="Equipement-type" id="Name" id="equipment-type" placeholder="Ex: Hydraulic Jack" required> -->
+                </div>
+                <div>
+                  <label for="EquipementName">Equipment Name/Model</label>
+                  <input
+                    type="text"
+                    name="Equipement-Name"
+                    id="equipment-name"
+                    placeholder="Ex: Trolley Jack / GRY45734"
+                  />
+                </div>
+                <div>
+                  <label for="Email">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Ex: example@domain.com"
+                  />
+                </div>
+                <div>
+                  <label for="comment">Condition/Problem Facing</label>
+                  <textarea
+                    type="text"
+                    name="comment"
+                    id="condition"
+                    style="
+                      height: 150px;
+                      width: 100%;
+                      background-color: gainsboro;
+                      resize: none;
+                    "
+                    id="comment"
+                    placeholder="Condition of your equipment/Problem your facing with your equipment.                                        Ex: Hydraulic jack not lifting weight."
+                  ></textarea>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
             </div>
-          <div>
-          <label for="Email">Email</label>
-          <input type="email" name="email" id="email"  placeholder="Ex: example@domain.com">
-        </div>
-        <div>
-          <label for="comment">Condition/Problem Facing</label>
-          <textarea type="text" name="comment" id="condition" style="height: 150px; width: 100%; background-color: gainsboro; resize: none;" id="comment" placeholder="Condition of your equipment/Problem your facing with your equipment.                                        Ex: Hydraulic jack not lifting weight."></textarea>  
           </div>
-          <button type="submit">Submit</button>
-        </form>  
         </div>
-    </div>
-    </div>
-  </div>
-</div>
-<div class="divider"></div>
-<div class="division">
-    <div class="features-container ">
-      <h2>Hydraulic Equipment Service Available in Bangalore</h2>
-      <p></p>
-      <div class="features">
-        <div class="feature-boxes" style="background-image: url('images/Complete\ Service\ Tokens-03-03-03-03.png')"></div>
-        <div class="feature-boxes" style="background-image: url('images/Changing\ Parts\ Tokens-05-05.png');"></div>
-        <div class="feature-boxes" style="background-image: url('images/Custom\ Jacks\ Tokens-06-06.png');"></div>
-        <div class="feature-boxes" style="background-image: url('images/Equipments-08-08.png');"></div>
-        <div class="feature-boxes" style="background-image: url('images/Oil\ leakage\ Tokens-04-04-04.png');"></div>
-        <div class="feature-boxes" style="background-image: url('images/Pricing\ Tokens-07-07.png');"></div>
-        <div class="feature-boxes" style="background-image: url('images/New\ jack\ Illustration-09-09.png');"></div>
       </div>
     </div>
     <div class="divider"></div>
-    <h2 class="testi-header">Testimonials</h2>
-  <div class="testimonial">
-    <div class="testi-boxes">
-      <p>"very clean and perfetioned hydraulic equipment service. I never expected it to be so fast and cost-efficient."</p>
-      <div class="writer-info">
-        <img src="images/profile picture-11.png" alt="Profile Picture">
-        <div class="writer-details">
-        <h6>Jayaram</h6>
-        <p>Manager - OCT Enterprises</p>
+    <div class="division">
+      <div class="features-container">
+        <h2>Hydraulic Equipment Service Available in Bangalore</h2>
+        <p></p>
+        <div class="features">
+          <div
+            class="feature-boxes"
+            style="
+              background-image: url('images/Complete\ Service\ Tokens-03-03-03-03.png');
+            "
+          ></div>
+          <div
+            class="feature-boxes"
+            style="
+              background-image: url('images/Changing\ Parts\ Tokens-05-05.png');
+            "
+          ></div>
+          <div
+            class="feature-boxes"
+            style="
+              background-image: url('images/Custom\ Jacks\ Tokens-06-06.png');
+            "
+          ></div>
+          <div
+            class="feature-boxes"
+            style="background-image: url('images/Equipments-08-08.png')"
+          ></div>
+          <div
+            class="feature-boxes"
+            style="
+              background-image: url('images/Oil\ leakage\ Tokens-04-04-04.png');
+            "
+          ></div>
+          <div
+            class="feature-boxes"
+            style="background-image: url('images/Pricing\ Tokens-07-07.png')"
+          ></div>
+          <div
+            class="feature-boxes"
+            style="
+              background-image: url('images/New\ jack\ Illustration-09-09.png');
+            "
+          ></div>
+        </div>
       </div>
+      <div class="divider"></div>
+      <h2 class="testi-header">Testimonials</h2>
+      <div class="testimonial">
+        <div class="testi-boxes">
+          <p>
+            "very clean and perfetioned hydraulic equipment service. I never
+            expected it to be so fast and cost-efficient."
+          </p>
+          <div class="writer-info">
+            <img src="images/profile picture-11.png" alt="Profile Picture" />
+            <div class="writer-details">
+              <h6>Jayaram</h6>
+              <p>Manager - OCT Enterprises</p>
+            </div>
+          </div>
+        </div>
+        <div class="testi-boxes">
+          <p>"fast, friendly, honest hydraulic jack Service"</p>
+          <div class="writer-info">
+            <img src="images/profile picture-11.png" alt="Profile Picture" />
+            <div class="writer-details">
+              <h6>Mohammed Amjad</h6>
+              <p>Owner - Classic Wheel Alignment</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Common issues struture -->
+      <div class="divider"></div>
+      <h2 class="issue-header testi-header">Common issues</h2>
+      <div class="issue-container">
+        <div class="common-issues">
+          <div class="issues">
+            <h4>$ Oil Leakages</h4>
+            <p>Oil leaks out from sealed and joint places of the equipment</p>
+          </div>
+          <div class="issues">
+            <h4>$ Jack doesn't get lifted.</h4>
+            <p>
+              This problem usually occurs due to misplacment of internal parts,
+              low oil, or broken internal parts.
+            </p>
+          </div>
+          <div class="issues">
+            <h4>$ Broken Parts</h4>
+            <p>
+              Broken parts like inlet-outlet oil valves, steel balls, wheels,
+              handles, etc.
+            </p>
+          </div>
+          <div class="issues">
+            <h4>$ Debris Stucked in valves</h4>
+            <p>
+              Debris stucked in inlet outlet valves can causes mal-functioning
+              of the equipment
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Price list -->
+      <div class="divider"></div>
+      <h2 class="price-header testi-header">
+        Equipment Service Price list, 2022
+      </h2>
+      <div class="price-container">
+        <div class="service-type">
+          <p class="service-header">Service Type</p>
+          <p class="lists">Complete Jack Service</p>
+          <p class="lists">Change parts</p>
+          <p class="lists">Oil Changing</p>
+          <p class="lists">Custom Jack</p>
+          <p class="lists">Pneumatic Equipment Service</p>
+        </div>
+        <div class="price">
+          <p class="service-header">Price starts from (&#8377;)</p>
+          <p class="lists">1000</p>
+          <p class="lists">200</p>
+          <p class="lists">300</p>
+          <p class="lists">4500</p>
+          <p class="lists">600</p>
+        </div>
       </div>
     </div>
-    <div class="testi-boxes">
-      <p>"fast, friendly, honest hydraulic jack Service"</p>
-      <div class="writer-info">
-        <img src="images/profile picture-11.png" alt="Profile Picture">
-        <div class="writer-details">
-        <h6>Mohammed Amjad</h6>
-        <p>Owner - Classic Wheel Alignment</p>
+    <footer>
+      <div class="Footer-container">
+        <div class="links">
+          <div class="weblinks">
+            <ul>
+              <li><a href="">Custom</a></li>
+              <li><a href="">Spares</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <div class="weblinks">
+            <ul>
+              <li><a href="">Complete Jack Service</a></li>
+              <li><a href="">Custom Made Jacks</a></li>
+              <li><a href="">Equipment Service</a></li>
+              <li><a href="">Changing parts</a></li>
+              <li><a href="">Oil Changing</a></li>
+              <li><a href="">Buy New</a></li>
+              <li><a href="">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="social-media-links">
+            <div class="social-icons">
+              <a href=""><img src="" alt="" /></a>
+              <p>Twitter</p>
+            </div>
+            <div class="social-icons">
+              <a href=""><img src="" alt="" /></a>
+              <p>Instagram</p>
+            </div>
+            <div class="social-icons">
+              <a href=""><img src="" alt="" /></a>
+              <p>Facebook</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <div class="footer-logo">
+            <img src="" alt="" />
+          </div>
+          <p></p>
+          <p></p>
+        </div>
       </div>
-      </div>
-    </div>
-  </div>
-  <!-- Common issues struture -->
-  <div class="divider"></div>
-  <h2 class="issue-header testi-header">Common issues</h2>
-  <div class="issue-container">
-    <div class="common-issues">
-      <div class="issues">
-        <h4>$ Oil Leakages</h4>
-        <p>Oil leaks out from sealed and joint places of the equipment</p>
-      </div>
-      <div class="issues">
-        <h4>$ Jack doesn't get lifted.</h4>
-        <p>This problem usually occurs due to misplacment of internal parts, low oil, or broken internal parts.</p>
-      </div>
-      <div class="issues">
-        <h4>$ Broken Parts</h4>
-        <p>Broken parts like inlet-outlet oil valves, steel balls, wheels, handles, etc.</p>
-      </div>
-      <div class="issues">
-        <h4>$ Debris Stucked in valves</h4>
-        <p>Debris stucked in inlet outlet valves can causes mal-functioning of the equipment</p>
-      </div>
-    </div>
-  </div>
-  <!-- Price list -->
-  <div class="divider"></div>
-  <h2 class="price-header testi-header">Equipment Service Price list, 2022</h2>
-  <div class="price-container">
-     <div class="service-type">
-        <p class="service-header">Service Type</p>
-        <p class="lists">Complete Jack Service</p>
-        <p class="lists">Change parts</p>
-        <p class="lists">Oil Changing</p>
-        <p class="lists">Custom Jack</p>
-        <p class="lists">Pneumatic Equipment Service</p>
-     </div>
-     <div class="price">
-      <p class="service-header">Price starts from (&#8377;)</p>
-      <p class="lists">1000</p>
-      <p class="lists">200</p>
-      <p class="lists">300</p>
-      <p class="lists">4500</p>
-      <p class="lists">600</p>
-     </div>
-  </div>
-</div>
-      <script src="main.js"></script>
-</body>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>
