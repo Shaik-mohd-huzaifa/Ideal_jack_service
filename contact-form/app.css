@@ -327,7 +327,7 @@ option {
   .nav-container.active .wrong-nav {
     position: absolute;
     top: 0;
-    right: 20px;
+    right: 10px;
   }
   .navbar-link {
     display: none;
@@ -366,7 +366,8 @@ option {
     transition: all 0.1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
     align-self: flex-start;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 500;
   }
 
   .nav-container.active .navbar-link:hover,
