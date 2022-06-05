@@ -29,7 +29,7 @@ body {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: transparent;
+  background-color: #fff;
   display: flex;
 }
 
@@ -294,6 +294,9 @@ option {
   .form-container {
     font-size: 15px;
   }
+  .container img {
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -311,6 +314,9 @@ option {
     width: 243px;
     height: 45px;
     padding: 10px 0;
+  }
+  .container {
+    display: none;
   }
 }
 
