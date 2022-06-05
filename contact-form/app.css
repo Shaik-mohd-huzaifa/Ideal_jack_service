@@ -2,11 +2,34 @@ body {
   margin: 0px;
 }
 
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-image: url("images/conversation.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+  opacity: 0.3; */
+  z-index: -1;
+}
+
+.container img {
+  margin-right: 40px;
+  width: 550px;
+  opacity: 0.5;
+}
+
 .main-nav-container {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #ffffff;
+  background-color: transparent;
   display: flex;
 }
 
