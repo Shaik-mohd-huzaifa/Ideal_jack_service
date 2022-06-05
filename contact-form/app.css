@@ -22,7 +22,7 @@ body {
 .container img {
   margin-right: 40px;
   width: 550px;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .main-nav-container {
