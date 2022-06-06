@@ -425,7 +425,10 @@ option {
   .main-nav-container {
     padding-top: 0px;
   }
-
+  .logo img {
+    width: 189px;
+    height: 35px;
+  }
   .nav-container {
     padding-right: 10px;
   }
