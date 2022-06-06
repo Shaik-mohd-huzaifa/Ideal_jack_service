@@ -429,6 +429,9 @@ option {
     width: 189px;
     height: 35px;
   }
+  .logo {
+    padding-left: 10px;
+  }
   .nav-container {
     padding-right: 10px;
   }
