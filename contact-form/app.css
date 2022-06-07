@@ -98,6 +98,10 @@ body {
     backdrop-filter: blur(30px); */
 }
 
+.navbar-link a {
+  text-decoration: none;
+}
+
 .navbar-link:hover {
   cursor: pointer;
 }
