@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .main-nav-container {
   width: 100%;
   padding-top: 10px;
@@ -71,6 +74,11 @@
       backdrop-filter: blur(30px); */
 }
 
+.navbar-link a {
+  text-decoration: none;
+  color: #da1212;
+}
+
 .navbar-link:hover {
   cursor: pointer;
 }
@@ -81,5 +89,23 @@
   }
   100% {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .testi-header {
+    margin: 10px 0px !important;
+  }
+  .form {
+    padding-top: 15px;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .form-boxes {
+    width: 70%;
+  }
+  .form-container {
+    font-size: 15px;
   }
 }
