@@ -135,6 +135,27 @@ body {
   position: absolute;
 }
 
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Main-header {
+  font-size: 40px;
+  color: #da1212;
+  font-family: poppins;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin: auto;
+}
+
 @media screen and (max-width: 1080px) {
   .nav-container {
     box-sizing: border-box;
