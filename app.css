@@ -622,7 +622,8 @@ footer {
   justify-content: space-between;
 }
 
-.links div {
+.links div:nth-child(1),
+.links div:nth-child(2) {
   width: 30%;
   padding: 5%;
   padding-top: 15px;
@@ -645,23 +646,32 @@ footer {
 }
 .social-media-links {
   display: flex;
+  justify-content: flex-start;
   padding-right: 0 !important;
   flex-direction: column;
+  width: 100%;
+}
+
+.links .social-icons div {
+  width: 100%;
 }
 
 .social-icons {
   width: 100%;
   display: flex;
+  align-items: center;
 }
 .social-icons img {
-  width: 50%;
-  height: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
 }
 
 .social-icons p {
   font-family: "poppins";
   font-size: 14px;
   color: white;
+  margin: 0px;
 }
 @media screen and (max-width: 555px) {
   .logo h1 {
