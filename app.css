@@ -1009,7 +1009,25 @@ footer {
     padding-bottom: 10px;
   }
   .Footer-container {
+    display: block;
+  }
+  .links {
     width: 100%;
+    flex-wrap: wrap;
+  }
+  .links .weblinks {
+    width: 50%;
+  }
+  .social-media-links {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around !important;
+    padding: 10px 20px !important;
+  }
+  .social-icons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
   }
 }
 
