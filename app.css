@@ -1008,37 +1008,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .Footer-container {
-    display: block;
-  }
-  .links {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  .links .weblinks {
-    width: 50%;
-  }
-  .social-media-links {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around !important;
-    padding: 10px 20px !important;
-  }
-  .social-icons {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-  }
-  .info {
-    padding-top: 0px;
-    width: 100%;
-    align-items: center !important;
-    padding: 20px !important;
-    padding-top: 0px !important;
-  }
-  .weblinks li {
-    text-align: center;
-  }
 }
 
 /*  removing navbar when size is less */
@@ -1132,6 +1101,37 @@ footer {
   .nav-container.active .navbar-link:focus {
     border-bottom: 2.4px solid #da1212;
   }
+  .Footer-container {
+    display: block;
+  }
+  .links {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .links .weblinks {
+    width: 50%;
+  }
+  .social-media-links {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around !important;
+    padding: 10px 20px !important;
+  }
+  .social-icons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .info {
+    padding-top: 0px;
+    width: 100%;
+    align-items: center !important;
+    padding: 20px !important;
+    padding-top: 0px !important;
+  }
+  .weblinks li {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -1163,6 +1163,19 @@ footer {
     font-size: 90vw;
     width: 40%;
     height: 0.4em;
+  }
+  .weblinks li {
+    text-align: left;
+  }
+
+  .weblinks li a {
+    color: white !important;
+  }
+  .social-icons {
+    margin-bottom: 5px;
+  }
+  .info p {
+    text-align: center !important;
   }
 }
 /* }
