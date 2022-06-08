@@ -629,6 +629,7 @@ footer {
   .logo img {
     width: 189px;
     height: 35px;
+    box-sizing: content-box;
   }
   .logo {
     padding-left: 10px;
