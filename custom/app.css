@@ -164,6 +164,170 @@ body {
   text-align: center;
 }
 
+footer {
+  width: 100%;
+  background-color: #da1212;
+}
+
+.Footer-container {
+  width: 100%;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.links {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links .weblinks {
+  width: 30%;
+  padding: 5%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+}
+
+.weblinks ul {
+  padding: 0px;
+}
+
+.weblinks li {
+  list-style: none;
+}
+
+.weblinks li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-family: "poppins";
+}
+.social-media-links {
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 0 !important;
+  flex-direction: column;
+  width: 100%;
+  width: 30%;
+  padding: 5%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  justify-content: space-around;
+}
+
+.links .social-icons div {
+  width: 100%;
+}
+
+.social-icons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+}
+
+.social-icons p {
+  font-family: "poppins";
+  font-size: 14px;
+  color: white;
+  margin: 0px;
+}
+
+.info {
+  width: 30%;
+  padding: 10px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  padding-right: 6%;
+}
+.footer-logo img {
+  width: 270px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-family: Poppins;
+  color: white;
+}
+
+@media screen and (max-width: 980px) {
+  .social-media-links {
+    justify-content: space-evenly;
+  }
+  .footer-logo img {
+    width: 189px;
+    height: 35px;
+  }
+  .info p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .info {
+    padding-top: 30px;
+    padding-right: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Footer-container {
+    display: block;
+  }
+  .links {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .links .weblinks {
+    width: 50%;
+  }
+  .social-media-links {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around !important;
+    padding: 10px 20px !important;
+  }
+  .social-icons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .info {
+    padding-top: 0px;
+    width: 100%;
+    align-items: center !important;
+    padding: 20px !important;
+    padding-top: 0px !important;
+  }
+  .weblinks li {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .weblinks li {
+    text-align: left;
+  }
+
+  .weblinks li a {
+    color: white !important;
+  }
+  .social-icons {
+    margin-bottom: 5px;
+  }
+  .info p {
+    text-align: center !important;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .nav-container {
     box-sizing: border-box;
