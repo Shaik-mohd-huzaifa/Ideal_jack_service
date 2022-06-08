@@ -1036,6 +1036,9 @@ footer {
     padding: 20px !important;
     padding-top: 0px !important;
   }
+  .weblinks li {
+    text-align: center;
+  }
 }
 
 /*  removing navbar when size is less */
