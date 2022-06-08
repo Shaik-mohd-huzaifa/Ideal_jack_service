@@ -677,6 +677,17 @@ footer {
   color: white;
   margin: 0px;
 }
+
+.info {
+  width: 30%;
+  padding: 10px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.footer-logo img {
+  width: 270px;
+  height: 50px;
+}
 @media screen and (max-width: 555px) {
   .logo h1 {
     font-size: 23px;
