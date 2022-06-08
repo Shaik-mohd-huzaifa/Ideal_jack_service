@@ -622,8 +622,7 @@ footer {
   justify-content: space-between;
 }
 
-.links div:nth-child(1),
-.links div:nth-child(2) {
+.links .weblinks {
   width: 30%;
   padding: 5%;
   padding-top: 15px;
@@ -650,6 +649,11 @@ footer {
   padding-right: 0 !important;
   flex-direction: column;
   width: 100%;
+  width: 30%;
+  padding: 5%;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  justify-content: space-around;
 }
 
 .links .social-icons div {
