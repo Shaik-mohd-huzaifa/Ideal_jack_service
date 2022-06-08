@@ -817,6 +817,20 @@ footer {
     width: 100%;
     padding: 15px;
   }
+  .links .weblinks {
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  .social-media-links {
+    padding-left: 20px;
+    justify-content: flex-start !important;
+  }
+  .social-icons {
+    margin-bottom: 30px;
+  }
+  .Footer-container {
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 1175px) {
@@ -877,6 +891,24 @@ footer {
   }
   .price {
     width: 45%;
+  }
+  .social-media-links {
+    justify-content: space-evenly;
+  }
+  .footer-logo img {
+    width: 189px;
+    height: 35px;
+  }
+  .info p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .info {
+    padding-top: 30px;
+    padding-right: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 }
 
