@@ -1008,6 +1008,9 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .Footer-container {
+    width: 100%;
+  }
 }
 
 /*  removing navbar when size is less */
