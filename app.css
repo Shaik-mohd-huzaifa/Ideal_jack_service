@@ -1029,6 +1029,13 @@ footer {
     display: flex;
     justify-content: center;
   }
+  .info {
+    padding-top: 0px;
+    width: 100%;
+    align-items: center !important;
+    padding: 20px !important;
+    padding-top: 0px !important;
+  }
 }
 
 /*  removing navbar when size is less */
