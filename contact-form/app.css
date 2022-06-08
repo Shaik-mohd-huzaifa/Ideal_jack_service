@@ -283,6 +283,7 @@ option {
   transform: rotate(45deg);
   position: absolute;
 }
+
 @media screen and (max-width: 1230px) {
   .testi-header {
     margin: 10px 0px !important;
