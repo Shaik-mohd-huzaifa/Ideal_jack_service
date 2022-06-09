@@ -209,6 +209,14 @@ body {
   margin: auto !important;
 }
 
+.card a {
+  background-color: #da1212 !important;
+  color: white;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+}
+
 footer {
   width: 100%;
   background-color: #da1212;
