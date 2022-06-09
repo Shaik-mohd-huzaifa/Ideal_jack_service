@@ -183,6 +183,25 @@ body {
   margin: 10px auto;
 }
 
+.products {
+  width: 100%;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.products h2 {
+  font-size: 30px;
+  color: #da1212;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.products p {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
 footer {
   width: 100%;
   background-color: #da1212;
