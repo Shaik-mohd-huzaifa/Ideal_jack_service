@@ -208,6 +208,7 @@ body {
 }
 .card {
   margin: auto !important;
+  width: 90%;
 }
 
 .card a {
