@@ -202,6 +202,13 @@ body {
   font-weight: 500;
 }
 
+.products {
+  padding: 20px;
+}
+.card {
+  margin: auto !important;
+}
+
 footer {
   width: 100%;
   background-color: #da1212;
