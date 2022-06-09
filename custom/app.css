@@ -183,20 +183,20 @@ body {
   margin: 10px auto;
 }
 
-.products {
+.products-header {
   width: 100%;
   padding-left: 30px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
-.products h2 {
+.products-header h2 {
   font-size: 30px;
   color: #da1212;
   font-weight: 600;
   font-family: poppins;
 }
 
-.products p {
+.products-header p {
   font-size: 18px;
   font-family: Montserrat;
   font-weight: 500;
@@ -348,6 +348,12 @@ footer {
   .weblinks li {
     text-align: center;
   }
+  .products-header h2 {
+    font-size: 20px !important;
+  }
+  .products-header p {
+    font-size: 14px !important;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -384,6 +390,12 @@ footer {
   }
   .intro {
     padding: auto 20px;
+  }
+  .products-header h2 {
+    font-size: 25px;
+  }
+  .products-header p {
+    font-size: 15px;
   }
 }
 
