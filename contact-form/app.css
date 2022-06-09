@@ -120,6 +120,9 @@ body {
   }
 }
 
+a:hover {
+  color: #da1212 !important;
+}
 .form-container {
   width: 100%;
   font-size: 20px;
@@ -467,16 +470,14 @@ footer {
   .Footer-container {
     padding-bottom: 0px;
   }
+  /* 
   .info {
     align-items: flex-start !important;
-  }
+  } */
   .info p {
     font-size: 13px !important;
     text-align: left !important;
   }
-}
-
-@media screen and (max-width: 700px) {
 }
 
 @media screen and (max-width: 1230px) {
