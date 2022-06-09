@@ -204,6 +204,7 @@ body {
 
 .products {
   padding: 20px;
+  margin: 0px;
 }
 .card {
   margin: auto !important;
