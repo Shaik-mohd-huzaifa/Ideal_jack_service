@@ -584,6 +584,7 @@ footer {
     width: 189px;
     height: 35px;
     box-sizing: content-box;
+    padding: 4px 0;
   }
   .logo {
     padding-left: 10px;
