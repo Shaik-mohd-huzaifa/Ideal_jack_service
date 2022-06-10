@@ -399,6 +399,12 @@ footer {
   .card-cover {
     margin-bottom: 20px;
   }
+  .card-body h5 {
+    font-size: 16px;
+  }
+  .card-body p {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 560px) {
