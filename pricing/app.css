@@ -139,11 +139,24 @@ body {
   position: absolute;
 }
 
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-header {
   font-family: poppins !important;
   font-weight: 500;
   color: #da1212;
   margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Montserrat";
 }
 
 footer {
