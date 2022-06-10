@@ -233,7 +233,8 @@ body {
   font-weight: 500;
 }
 
-.card-body a:hover {
+.card-body a:hover,
+.card-body a:focus {
   color: #da1212;
   background-color: white !important;
 }
