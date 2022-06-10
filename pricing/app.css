@@ -139,6 +139,13 @@ body {
   position: absolute;
 }
 
+.main-header {
+  font-family: poppins !important;
+  font-weight: 500;
+  color: #da1212;
+  margin-bottom: 10px;
+}
+
 footer {
   width: 100%;
   background-color: #da1212;
