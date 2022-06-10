@@ -516,6 +516,7 @@ footer {
     width: 243px;
     height: 45px;
     padding: 10px 0;
+    box-sizing: content-box;
   }
   .container {
     display: none;
