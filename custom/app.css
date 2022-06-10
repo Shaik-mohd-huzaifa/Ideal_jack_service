@@ -211,7 +211,7 @@ body {
 }
 .card {
   margin: auto !important;
-  width: 90%;
+  width: 100%;
 }
 
 .card a {
@@ -231,6 +231,11 @@ body {
 .card-body p {
   font-family: Montserrat;
   font-weight: 500;
+}
+
+.card-body a:hover {
+  color: #da1212;
+  background-color: white !important;
 }
 
 footer {
