@@ -407,6 +407,7 @@ footer {
     width: 243px;
     height: 45px;
     padding: 10px 0;
+    box-sizing: content-box;
   }
   .Main-header {
     font-size: 25px;
@@ -512,6 +513,12 @@ footer {
   .nav-container.active .navbar-link:hover,
   .nav-container.active .navbar-link:focus {
     border-bottom: 2.4px solid #da1212;
+  }
+  .card-cover {
+    height: 320px;
+  }
+  .card {
+    height: 300px !important;
   }
 }
 
