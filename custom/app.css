@@ -206,6 +206,9 @@ body {
   padding: 20px;
   margin: 0px;
 }
+
+.card-cover {
+}
 .card {
   margin: auto !important;
   width: 90%;
@@ -216,6 +219,17 @@ body {
   color: white;
   font-family: "Poppins";
   font-size: 15px;
+  font-weight: 500;
+}
+
+.card-body h5 {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #da1212;
+}
+
+.card-body p {
+  font-family: Montserrat;
   font-weight: 500;
 }
 
@@ -514,12 +528,12 @@ footer {
   .nav-container.active .navbar-link:focus {
     border-bottom: 2.4px solid #da1212;
   }
-  .card-cover {
+  /* .card-cover {
     height: 320px;
   }
   .card {
     height: 300px !important;
-  }
+  } */
 }
 
 @media screen and (max-width: 585px) {
@@ -548,6 +562,12 @@ footer {
 
   .intro {
     padding: auto 10px;
+  }
+  .card-cover {
+    height: 320px;
+  }
+  .card {
+    height: 300px !important;
   }
 }
 
