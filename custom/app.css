@@ -405,6 +405,15 @@ footer {
   .card-body p {
     font-size: 14px;
   }
+  .intro {
+    padding: 20px;
+  }
+  .products-header {
+    padding: 0px 20px;
+  }
+  .products {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 560px) {
@@ -570,15 +579,25 @@ footer {
   .intro p {
     font-size: 13px;
   }
-
   .intro {
     padding: auto 10px;
   }
-  .card-cover {
-    height: 320px;
+  .products-header h2 {
+    font-size: 18px;
   }
-  .card {
-    height: 300px !important;
+  .products-header p {
+    font-size: 13px;
+  }
+  .card-body p {
+    font-size: 12px;
+    line-height: 1.2em;
+  }
+  .card-body {
+    padding: 10px;
+  }
+  .card-body a {
+    font-size: 12px !important;
+    padding: 5px 10px !important;
   }
 }
 
