@@ -971,6 +971,9 @@ footer {
   .lists {
     font-size: 14px;
   }
+  .links .weblinks {
+    padding: 15px 0% 0px 3%;
+  }
 }
 
 @media screen and (max-height: 700px) {
