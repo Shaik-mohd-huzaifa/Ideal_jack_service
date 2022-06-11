@@ -439,6 +439,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 1160px) {
+  .links .weblinks {
+    padding: 15px 0px 0px 3%;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .weblinks li {
     text-align: left;
