@@ -168,10 +168,11 @@ body {
 }
 
 .search-list {
-  width: 25%;
+  width: 23%;
   height: 100%;
   align-self: flex-start;
   padding: 20px 30px;
+  border: 0.5px solid dimgrey;
 }
 
 .list {
@@ -187,8 +188,9 @@ body {
 }
 
 .product-pricing-container {
-  width: 75%;
+  width: 73%;
   margin: 0 !important;
+  border: 0.5px solid dimgrey;
 }
 
 .card-cover {
