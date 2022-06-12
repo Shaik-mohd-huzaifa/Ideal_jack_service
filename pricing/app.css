@@ -160,6 +160,20 @@ body {
   font-family: "Montserrat";
 }
 
+.product-pricing-container {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.card-cover {
+  padding: 20px;
+}
+
+.card {
+  width: 100% !important;
+  margin: auto;
+}
+
 footer {
   width: 100%;
   background-color: #da1212;
