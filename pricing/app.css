@@ -34,6 +34,7 @@ body {
 .logo img {
   width: 324px;
   height: 60px;
+  box-sizing: content-box;
 }
 
 .navbar {
