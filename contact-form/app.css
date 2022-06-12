@@ -384,6 +384,55 @@ footer {
   color: white;
 }
 
+@media screen and (max-width: 1230px) {
+  .testi-header {
+    margin: 10px 0px !important;
+  }
+  .form {
+    padding-top: 15px;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .form-boxes {
+    width: 70%;
+  }
+  .form-container {
+    font-size: 15px;
+  }
+  .container img {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .links .weblinks {
+    padding: 15px 0px 0px 3%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .form-boxes {
+    width: 100%;
+  }
+  .form-boxes {
+    padding: 0px;
+  }
+  .nav-container {
+    box-sizing: border-box;
+    padding-right: 10px;
+  }
+  .logo img {
+    width: 243px;
+    height: 45px;
+    padding: 10px 0;
+    box-sizing: content-box;
+  }
+  .container {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .social-media-links {
     justify-content: space-evenly;
@@ -402,62 +451,6 @@ footer {
     align-items: center;
     display: flex;
     flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .Footer-container {
-    display: block;
-  }
-  .links {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  .links .weblinks {
-    width: 50%;
-  }
-  .social-media-links {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around !important;
-    padding: 10px 20px !important;
-  }
-  .social-icons {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-  }
-  .info {
-    padding-top: 0px;
-    width: 100%;
-    align-items: center !important;
-    padding: 20px !important;
-    padding-top: 0px !important;
-  }
-  .weblinks li {
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 1160px) {
-  .links .weblinks {
-    padding: 15px 0px 0px 3%;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .weblinks li {
-    text-align: left;
-  }
-
-  .weblinks li a {
-    color: white !important;
-  }
-  .social-icons {
-    margin-bottom: 5px;
-  }
-  .info p {
-    text-align: center !important;
   }
 }
 
@@ -483,49 +476,6 @@ footer {
   .info p {
     font-size: 13px !important;
     text-align: left !important;
-  }
-}
-
-@media screen and (max-width: 1230px) {
-  .testi-header {
-    margin: 10px 0px !important;
-  }
-  .form {
-    padding-top: 15px;
-  }
-  .form-container {
-    width: 100%;
-  }
-  .form-boxes {
-    width: 70%;
-  }
-  .form-container {
-    font-size: 15px;
-  }
-  .container img {
-    margin-right: 0px;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .form-boxes {
-    width: 100%;
-  }
-  .form-boxes {
-    padding: 0px;
-  }
-  .nav-container {
-    box-sizing: border-box;
-    padding-right: 10px;
-  }
-  .logo img {
-    width: 243px;
-    height: 45px;
-    padding: 10px 0;
-    box-sizing: content-box;
-  }
-  .container {
-    display: none;
   }
 }
 
@@ -630,6 +580,48 @@ footer {
   }
 }
 
+@media screen and (max-width: 700px) {
+  .links .weblinks,
+  .social-media-links {
+    width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Footer-container {
+    display: block;
+  }
+  .links {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .links .weblinks {
+    width: 50%;
+    padding: 15px 0px 0px 0px !important;
+  }
+  .social-media-links {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around !important;
+    padding: 10px 20px !important;
+  }
+  .social-icons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .info {
+    padding-top: 0px;
+    width: 100%;
+    align-items: center !important;
+    padding: 20px !important;
+    padding-top: 0px !important;
+  }
+  .weblinks li {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 585px) {
   .main-nav-container {
     padding-top: 0px;
@@ -689,6 +681,25 @@ footer {
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .weblinks li {
+    text-align: left !important;
+  }
+  .weblinks {
+    padding: 15px 0px 0px 3% !important;
+  }
+
+  .weblinks li a {
+    color: white !important;
+  }
+  .social-icons {
+    margin-bottom: 5px;
+  }
+  .info p {
+    text-align: center !important;
   }
 }
 
