@@ -175,6 +175,16 @@ body {
   padding: 10px;
 }
 
+.card-body h5 {
+  font-family: "poppins";
+  font-weight: 600;
+  color: #da1212;
+}
+
+.card-body p {
+  font-family: "Montserrat";
+  font-weight: 16px;
+}
 .card-body a {
   background-color: #da1212;
   color: #fff;
