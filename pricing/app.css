@@ -172,6 +172,7 @@ body {
 .card {
   width: 100% !important;
   margin: auto;
+  background-color: #da1212;
 }
 
 footer {
