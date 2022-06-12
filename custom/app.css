@@ -330,139 +330,7 @@ footer {
   color: white;
 }
 
-@media screen and (max-width: 980px) {
-  .social-media-links {
-    justify-content: space-evenly;
-  }
-  .footer-logo img {
-    width: 189px;
-    height: 35px;
-  }
-  .info p {
-    font-size: 14px;
-    text-align: center;
-  }
-  .info {
-    padding-top: 30px;
-    padding-right: 0px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 990px) {
-  .card-cover {
-    margin-bottom: 20px;
-  }
-  .card-body h5 {
-    font-size: 22px;
-    line-height: 1.2em;
-  }
-  .card-body {
-    padding: 10px;
-  }
-  .card-body p {
-    font-size: 15px;
-    line-height: 1.2em;
-  }
-  .card-body a {
-    font-size: 14px;
-    padding: 5px 10px;
-  }
-  .card-cover {
-    padding: 5px;
-  }
-}
-
 @media screen and (max-width: 1160px) {
-  .links .weblinks {
-    padding: 15px 0px 0px 3%;
-  }
-}
-
-@media screen and(max-width: 700px) {
-  .links .weblinks,
-  .social-media-links {
-    width: 33.33%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .Footer-container {
-    display: block;
-  }
-  .links {
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  .links .weblinks {
-    width: 50%;
-  }
-  .links .weblinks {
-    padding: 15px 0px 0px 0px;
-  }
-  .social-media-links {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around !important;
-    padding: 10px 20px !important;
-  }
-  .social-icons {
-    width: 30%;
-    display: flex;
-    justify-content: center;
-  }
-  .info {
-    padding-top: 0px;
-    width: 100%;
-    align-items: center !important;
-    padding: 20px !important;
-    padding-top: 0px !important;
-  }
-  .weblinks li {
-    text-align: center;
-  }
-  .products-header h2 {
-    font-size: 20px !important;
-  }
-  .products-header p {
-    font-size: 14px !important;
-  }
-  .card-cover {
-    margin-bottom: 20px;
-  }
-  .card-body h5 {
-    font-size: 16px;
-  }
-  .card-body p {
-    font-size: 14px;
-  }
-  .intro {
-    padding: 20px;
-  }
-  .products-header {
-    padding: 0px 20px;
-  }
-  .products {
-    padding: 10px;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .weblinks li {
-    text-align: left;
-  }
-
-  .weblinks li a {
-    color: white !important;
-  }
-  .social-icons {
-    margin-bottom: 5px;
-  }
-  .info p {
-    text-align: center !important;
-  }
   .links .weblinks {
     padding: 15px 0px 0px 3%;
   }
@@ -497,6 +365,58 @@ footer {
   .card {
     width: 100%;
     padding: 5px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .card-cover {
+    margin-bottom: 20px;
+  }
+  .card-body h5 {
+    font-size: 22px;
+    line-height: 1.2em;
+  }
+  .card-body {
+    padding: 10px;
+  }
+  .card-body p {
+    font-size: 15px;
+    line-height: 1.2em;
+  }
+  .card-body a {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .card-cover {
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .social-media-links {
+    justify-content: space-evenly;
+  }
+  .footer-logo img {
+    width: 189px;
+    height: 35px;
+  }
+  .info p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .info {
+    padding-top: 30px;
+    padding-right: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .links .weblinks,
+  .social-media-links {
+    width: 33.33%;
   }
 }
 
@@ -590,6 +510,86 @@ footer {
   .card {
     height: 300px !important;
   } */
+}
+
+@media screen and (max-width: 700px) {
+  .Footer-container {
+    display: block;
+  }
+  .links {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .links .weblinks {
+    width: 50%;
+  }
+  .links .weblinks {
+    padding: 15px 0px 0px 0px;
+  }
+  .social-media-links {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around !important;
+    padding: 10px 20px !important;
+  }
+  .social-icons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+  .info {
+    padding-top: 0px;
+    width: 100%;
+    align-items: center !important;
+    padding: 20px !important;
+    padding-top: 0px !important;
+  }
+  .weblinks li {
+    text-align: center;
+  }
+  .products-header h2 {
+    font-size: 20px !important;
+  }
+  .products-header p {
+    font-size: 14px !important;
+  }
+  .card-cover {
+    margin-bottom: 20px;
+  }
+  .card-body h5 {
+    font-size: 16px;
+  }
+  .card-body p {
+    font-size: 14px;
+  }
+  .intro {
+    padding: 20px;
+  }
+  .products-header {
+    padding: 0px 20px;
+  }
+  .products {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .weblinks li {
+    text-align: left;
+  }
+
+  .weblinks li a {
+    color: white !important;
+  }
+  .social-icons {
+    margin-bottom: 5px;
+  }
+  .info p {
+    text-align: center !important;
+  }
+  .links .weblinks {
+    padding: 15px 0px 0px 3%;
+  }
 }
 
 @media screen and (max-width: 585px) {
