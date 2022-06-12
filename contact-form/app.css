@@ -456,7 +456,7 @@ footer {
 
 @media screen and (max-width: 860px) {
   .links .weblinks {
-    padding: 20px;
+    /* padding: 20px; */
     padding-bottom: 0;
   }
   .social-media-links {
