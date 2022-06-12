@@ -434,6 +434,11 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
+  .links .weblinks,
+  .social-media-links {
+    width: 33.33%;
+  }
+
   .social-media-links {
     justify-content: space-evenly;
   }
@@ -581,10 +586,6 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-  .links .weblinks,
-  .social-media-links {
-    width: 33.33%;
-  }
 }
 
 @media screen and (max-width: 700px) {
