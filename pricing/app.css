@@ -160,8 +160,18 @@ body {
   font-family: "Montserrat";
 }
 
-.product-pricing-container {
+.searching-products {
   width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-list {
+  width: 25%;
+}
+
+.product-pricing-container {
+  width: 75%;
   margin: 0 !important;
 }
 
@@ -188,6 +198,7 @@ body {
 .card-body a {
   background-color: #da1212;
   color: #fff;
+  font-family: poppins;
 }
 
 footer {
