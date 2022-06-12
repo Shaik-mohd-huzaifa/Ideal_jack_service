@@ -375,6 +375,19 @@ footer {
   }
 }
 
+@media screen and (max-width: 1160px) {
+  .links .weblinks {
+    padding: 15px 0px 0px 3%;
+  }
+}
+
+@media screen and(max-width: 700px) {
+  .links .weblinks,
+  .social-media-links {
+    width: 33.33%;
+  }
+}
+
 @media screen and (max-width: 700px) {
   .Footer-container {
     display: block;
@@ -385,6 +398,9 @@ footer {
   }
   .links .weblinks {
     width: 50%;
+  }
+  .links .weblinks {
+    padding: 15px 0px 0px 0px;
   }
   .social-media-links {
     width: 100%;
@@ -446,6 +462,9 @@ footer {
   }
   .info p {
     text-align: center !important;
+  }
+  .links .weblinks {
+    padding: 15px 0px 0px 3%;
   }
 }
 
