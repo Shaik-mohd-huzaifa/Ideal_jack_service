@@ -174,7 +174,7 @@ body {
   width: 24%;
   height: 100% !important;
   align-self: flex-start;
-  padding: 20px 0px 20px;
+  padding: 20px 10px 20px;
   border: 0.5px solid #cfcfcf;
   border-radius: 5px;
 }
@@ -187,7 +187,8 @@ body {
 }
 
 .list li {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  border-radius: 3px;
   padding: 5px 0px 5px 30px;
 }
 
