@@ -180,10 +180,14 @@ body {
 }
 
 .list {
-  font-size: 18px;
+  font-size: 20px;
   list-style: none;
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.list li {
+  margin-bottom: 10px;
 }
 
 .list li a {
