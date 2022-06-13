@@ -515,6 +515,7 @@ footer {
     width: 33.33%;
   }
 }
+
 @media screen and (max-width: 700px) {
   .Footer-container {
     display: block;

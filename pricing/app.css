@@ -166,6 +166,8 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  height: 700px;
+  max-height: 75%;
 }
 
 .search-list {
@@ -190,7 +192,9 @@ body {
 
 .product-pricing-container {
   width: 73%;
+  height: 100%;
   margin: 0 !important;
+  overflow: auto;
   border: 0.5px solid dimgrey;
 }
 
