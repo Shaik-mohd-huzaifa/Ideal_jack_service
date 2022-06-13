@@ -200,6 +200,16 @@ body {
   border-radius: 5px;
 }
 
+.product-pricing-container::-webkit-scrollbar {
+  width: 10px;
+  background-color: #cfcfcf;
+}
+
+.product-pricing-container::-webkit-scrollbar-thumb {
+  background-color: #da1212;
+  border-radius: 4px;
+}
+
 .card-cover {
   padding: 20px;
 }
