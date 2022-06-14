@@ -83,13 +83,13 @@
     <div class="form-container">
       <h2 class="testi-header">Get Quote</h2>
       <div class="form">
-        <form action="/submit">
+        <form action="https://sheetdb.io/api/v1/njt3df606bgts" method="POST">
           <div class="form-boxes">
             <div class="">
               <label for="Username">Name/Company name</label>
               <input
                 type="text"
-                name="Username"
+                name="data[UserName]"
                 id="username"
                 placeholder="John/John ltd"
                 required
@@ -99,7 +99,7 @@
               <label for="Email">Email Id</label>
               <input
                 type="email"
-                name="Email"
+                name="data[Email]"
                 id="email"
                 placeholder="username@domain.com"
                 required
@@ -109,7 +109,7 @@
           <div class="form-boxes">
             <div>
               <label for="equipment-type">Equipment Type</label>
-              <select name="equipment-type" id="equipment-type">
+              <select name="data[Equipment type]" id="equipment-type">
                 <option value="default" style="padding: 10px">Select</option>
                 <option value="trolley-jack">Trolley jack</option>
                 <option value="Pneumatic-gun">Pneumatic Gun/ Wrench</option>
@@ -123,7 +123,7 @@
               <label for="equipment-model">Equipment Model</label>
               <input
                 type="text"
-                name="equipment-name"
+                name="data[Equipment Model]"
                 id="equipment-name"
                 placeholder="3 ton/ 3M Wrench"
               />
@@ -133,7 +133,7 @@
             <div>
               <div class="sub-div">
                 <label for="Phone-number">Phone Number</label>
-                <input type="text" name="Phone-number" id="Phone-num" />
+                <input type="text" name="data[Phone]" id="Phone-num" />
               </div>
               <button type="submit">Submit</button>
             </div>
