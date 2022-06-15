@@ -573,7 +573,7 @@ footer {
   }
 
   .form-boxes select {
-    width: 250px;
+    width: 240px;
   }
 
   .form-boxes label {
@@ -581,7 +581,7 @@ footer {
   }
 
   .form-boxes textarea {
-    width: 250px !important;
+    width: 240px !important;
   }
 }
 
