@@ -77,7 +77,7 @@ form.addEventListener("submit", (e) => {
       document.getElementById("email").value = "";
       document.getElementById("equipment-type").value = "default";
       document.getElementById("username").value = "";
-      document.getElementById("equipment-Model").value = "";
+      document.getElementById("equipment-model").value = "";
       document.getElementById("condition").value = "";
       document.getElementById("Phone-num").value = "";
       alert("success");
