@@ -74,12 +74,15 @@ form.addEventListener("submit", (e) => {
     .then((response) => response.json())
     .then((html) => {
       // you can put any JS code here
+      let equipment = document.getElementById("equipment-type").value;
       document.getElementById("email").value = "";
       document.getElementById("equipment-type").value = "default";
       document.getElementById("username").value = "";
       document.getElementById("equipment-model").value = "";
       document.getElementById("condition").value = "";
       document.getElementById("Phone-num").value = "";
-      alert("success");
+      alert(
+        `Your request for ${equipment} is recieved. We will contact you soon.`
+      );
     });
 });
