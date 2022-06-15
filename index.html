@@ -140,10 +140,18 @@
                 Get your Qualified Equipments Service from Quality Service
                 Provider
               </h2>
-              <form class="mainform">
+              <form
+                class="mainform"
+                action="https://sheetdb.io/api/v1/emstmvjw9b6kx"
+                method="POST"
+              >
                 <div>
                   <label for="Equipement-type">Equipment Type</label>
-                  <select name="Equipement-type" id="Equipment-list" required>
+                  <select
+                    name="data[Equipment Type]"
+                    id="Equipment-list"
+                    required
+                  >
                     <option value="default">Select</option>
                     <option value="trolley-jack">Trolley Jack</option>
                     <option value="Pneumatic-gun">Pneumatic Gun/ Wrench</option>
@@ -160,7 +168,7 @@
                   <label for="EquipementName">Equipment Name/Model</label>
                   <input
                     type="text"
-                    name="Equipement-Name"
+                    name="data[Equipment Model]"
                     id="equipment-name"
                     placeholder="Ex: Trolley Jack / GRY45734"
                   />
@@ -169,7 +177,7 @@
                   <label for="Email">Email</label>
                   <input
                     type="email"
-                    name="email"
+                    name="data[Email]"
                     id="email"
                     placeholder="Ex: example@domain.com"
                   />
@@ -178,7 +186,7 @@
                   <label for="comment">Condition/Problem Facing</label>
                   <textarea
                     type="text"
-                    name="comment"
+                    name="data[Comments]"
                     id="condition"
                     style="
                       height: 150px;
