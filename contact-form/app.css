@@ -151,7 +151,7 @@ a:hover {
 
 .form-boxes input {
   width: 300px;
-  height: 25px;
+  height: 30px;
   font-family: "montserrat";
   background-color: #dbdbdb;
   border: 0;
@@ -161,7 +161,7 @@ a:hover {
   padding: 5px;
 }
 .form-boxes select {
-  width: 309px;
+  width: 300px;
   height: 35px;
   background-color: #dbdbdb;
   font-family: "montserrat";
