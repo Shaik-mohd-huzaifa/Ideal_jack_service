@@ -63,3 +63,17 @@ function Navbar() {
   } else {
   }
 }
+
+var form = document.getElementById("quotation-form");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  fetch(form.action, {
+    method: "POST",
+    body: new FormData(document.getElementById("quotation-form")),
+  })
+    .then((response) => response.json())
+    .then((html) => {
+      // you can put any JS code here
+      alert("success");
+    });
+});
