@@ -75,6 +75,11 @@ form.addEventListener("submit", (e) => {
     .then((html) => {
       // you can put any JS code here
       document.getElementById("email").value = "";
+      document.getElementById("equipment-type").value = "default";
+      document.getElementById("username").value = "";
+      document.getElementById("equipment-Model").value = "";
+      document.getElementById("condition").value = "";
+      document.getElementById("Phone-num").value = "";
       alert("success");
     });
 });
