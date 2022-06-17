@@ -248,7 +248,14 @@ body {
 .card-body a {
   background-color: #da1212;
   color: #fff;
+  transition: all 0.5s ease;
   font-family: poppins;
+}
+
+.card-body a:hover {
+  background-color: #fff;
+  color: #da1212;
+  border: 0.5px solid #da1212;
 }
 
 footer {
@@ -348,6 +355,15 @@ footer {
   }
   .list li {
     padding: 5px 0px 5px 20px;
+  }
+  .card-body {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .card-cover {
+    padding: 15px;
   }
 }
 
