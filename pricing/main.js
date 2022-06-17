@@ -16,6 +16,13 @@ function Navbar() {
   }
 }
 
+function remove(option) {
+  let x = document.getElementById("list-items").className;
+  if (x === "list") {
+    document.getElementById(`${option}-option`).scrollIntoView();
+  }
+}
+
 // function to activate side nav bar for responsive or mobile screens
 function changenav() {
   let rotatingbox = document.getElementById("rotating-container");
