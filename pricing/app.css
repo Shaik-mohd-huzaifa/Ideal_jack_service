@@ -342,6 +342,15 @@ footer {
   color: white;
 }
 
+@media screen and (max-width: 1330px) {
+  .searching-products {
+    padding: 15px;
+  }
+  .list li {
+    padding: 5px 0px 5px 20px;
+  }
+}
+
 @media screen and (max-width: 1160px) {
   .links .weblinks {
     padding: 15px 0 0 3%;
