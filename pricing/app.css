@@ -412,6 +412,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .card-body h5 {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .social-media-links {
     justify-content: space-evenly;
