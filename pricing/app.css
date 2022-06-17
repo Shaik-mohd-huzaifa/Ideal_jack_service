@@ -371,6 +371,23 @@ footer {
   .links .weblinks {
     padding: 15px 0 0 3%;
   }
+  .card-body a {
+    font-size: 14px;
+  }
+  .list li a {
+    font-size: 18px;
+  }
+  .list li {
+    margin-bottom: 5px;
+  }
+  .card-body h5 {
+    font-size: 20px;
+  }
+  .card-body p {
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: 500;
+  }
 }
 
 @media screen and (max-width: 1080px) {
