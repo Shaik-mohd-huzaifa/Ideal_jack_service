@@ -447,6 +447,13 @@ footer {
   .card-cover {
     padding: 10px;
   }
+  .card-body a {
+    padding: 3px 5px;
+    margin: auto;
+  }
+  .card {
+    padding: 6px;
+  }
 }
 
 @media screen and (max-width: 740px) {
