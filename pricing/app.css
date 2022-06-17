@@ -441,6 +441,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .list li a {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 740px) {
