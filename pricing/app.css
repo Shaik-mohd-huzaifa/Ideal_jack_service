@@ -444,6 +444,9 @@ footer {
   .list li a {
     font-size: 16px;
   }
+  .card-cover {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 740px) {
