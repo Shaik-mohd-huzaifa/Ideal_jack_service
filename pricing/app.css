@@ -188,6 +188,7 @@ body {
 
 .list li {
   margin-bottom: 10px;
+  transition: all 0.5s ease;
   border-radius: 3px;
   padding: 5px 0px 5px 30px;
 }
