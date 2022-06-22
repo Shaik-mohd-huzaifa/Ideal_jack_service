@@ -479,6 +479,8 @@ footer {
   .card-body a {
     width: 100%;
     font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
   }
 }
 
