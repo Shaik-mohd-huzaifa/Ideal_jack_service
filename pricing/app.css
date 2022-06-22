@@ -599,6 +599,9 @@ footer {
   .search-list {
     padding: 5px;
   }
+  .card-body h5 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 700px) {
