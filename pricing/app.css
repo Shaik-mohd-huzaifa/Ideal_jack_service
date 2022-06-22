@@ -596,6 +596,9 @@ footer {
   .searching-products {
     padding: 10px;
   }
+  .search-list {
+    padding: 5px;
+  }
 }
 
 @media screen and (max-width: 700px) {
