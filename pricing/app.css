@@ -457,6 +457,11 @@ footer {
 }
 
 @media screen and (max-width: 880px) {
+  .header h2 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
   .search-list {
     padding: 10px;
   }
@@ -483,7 +488,7 @@ footer {
     width: 100%;
     font-size: 13px;
     font-weight: 500;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
   }
 }
 
