@@ -460,6 +460,9 @@ footer {
   .search-list {
     padding: 10px;
   }
+  .list li {
+    padding: 5px 0px 5px 10px;
+  }
 }
 
 @media screen and (max-width: 740px) {
