@@ -593,6 +593,9 @@ footer {
   .list li a {
     font-size: 13px;
   }
+  .searching-products {
+    padding: 10px;
+  }
 }
 
 @media screen and (max-width: 700px) {
