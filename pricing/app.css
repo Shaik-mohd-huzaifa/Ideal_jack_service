@@ -456,6 +456,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 880px) {
+  .search-list {
+    padding: 10px;
+  }
+}
+
 @media screen and (max-width: 740px) {
   .navbar-link {
     display: none;
