@@ -463,6 +463,9 @@ footer {
   .list li {
     padding: 0px 0px 0px 10px;
   }
+  .card-body {
+    padding: 5px;
+  }
 }
 
 @media screen and (max-width: 740px) {
