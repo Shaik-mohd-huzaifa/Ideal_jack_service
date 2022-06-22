@@ -476,6 +476,10 @@ footer {
     font-size: 13px;
     margin-bottom: 10px;
   }
+  .card-body a {
+    width: 100%;
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 740px) {
