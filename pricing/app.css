@@ -462,6 +462,9 @@ footer {
   }
   .list li {
     padding: 0px 0px 0px 10px;
+    display: flex;
+    height: 30px;
+    align-items: center;
   }
   .card-body {
     padding: 5px;
